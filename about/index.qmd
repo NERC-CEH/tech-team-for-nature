@@ -16,7 +16,7 @@ Biodiversity is changing rapidly, but most monitoring is still manual, patchy an
 
 ## Who we are
 
-We are part of the **UK Centre for Ecology & Hydrology (UKCEH)**, an independent, not-for-profit research institute. We combine ecology, data science, engineering and partnerships. [Meet the team](team.qmd).
+We are part of the **UK Centre for Ecology & Hydrology (UKCEH)**, an independent, not-for-profit research institute. We combine ecology, data science, engineering and partnerships.
 
 ## Work with us
 

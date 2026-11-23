@@ -20,7 +20,7 @@ project:
 website:
   title: "UKCEH Tech for Nature"
   description: "Automated biodiversity monitoring at the UK Centre for Ecology & Hydrology: light traps, sound recorders and AI that turn them into wildlife records."
-  site-url: "https://nerc-ceh.github.io/tech-for-nature/"
+  site-url: "https://nerc-ceh.github.io/tech-team-for-nature/"
   favicon: assets/favicon.ico
   image: assets/hero.jpg
   open-graph: true
@@ -66,8 +66,6 @@ website:
         menu:
           - text: "About us"
             href: about/index.qmd
-          - text: "Team"
-            href: about/team.qmd
           - text: "Partners and funders"
             href: about/partners.qmd
           - text: "Contact"

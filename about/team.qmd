@@ -2,6 +2,8 @@
 title: "Team"
 subtitle: "The people behind the technology"
 toc: false
+# Hidden until the current team list is in (draft pages are left off the site).
+draft: true
 ---
 
 <!-- To add someone: put a square photo in assets/people/ (any size; 300 px is plenty) and copy one <div> below. -->
