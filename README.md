@@ -8,7 +8,7 @@ Built with [Quarto](https://quarto.org) and published on GitHub Pages: every cha
 
 | To add | How |
 |---|---|
-| A **story, news item or fieldwork diary** from a partner | They fill in the [Share your story form](https://connect-apps.ceh.ac.uk/tech-for-nature-share/). The team approves it on the approvals page, and it's published automatically. |
+| A **story, news item or fieldwork diary** from a partner | They sign in to the [Share your story form](https://connect-apps.ceh.ac.uk/tech-for-nature-share/) with their own login (the team makes logins on the approvals page) and fill it in. The team approves it, and it's published automatically. |
 | The same, written by the team | Use the form too, or add a folder by hand: see [CONTRIBUTING.md](CONTRIBUTING.md). |
 | A **project** | a folder in `projects/` with an `index.qmd` (copy an existing one) |
 | A **team member** or **partner** | `about/team.qmd`, `about/partners.qmd` (photos and logos in `assets/`) |

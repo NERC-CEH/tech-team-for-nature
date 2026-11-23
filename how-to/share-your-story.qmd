@@ -9,7 +9,7 @@ toc: false
 <p><a class="btn btn-warning btn-lg" href="https://connect-apps.ceh.ac.uk/tech-for-nature-share/" target="_blank" rel="noopener">Open the form</a></p>
 ```
 
-Anyone can send us something. You don't need an account.
+**You'll need a login from us.** Each partner has their own username and password. If you don't have one yet, or have forgotten it, ask your UKCEH contact or email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk). You can change your password once you've signed in.
 
 ::: {.steps}
 1. **Choose what it is:** a story, a news item or a fieldwork diary.
