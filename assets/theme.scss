@@ -1,32 +1,67 @@
 /*-- scss:defaults --*/
-// UKCEH colours (brand guidelines); Arial is the approved fallback for Suisse International.
-$ukceh-navy: #133b64;
-$ukceh-blue: #477AE2;
-$ukceh-green: #4db264;
-$ukceh-yellow: #f4c03d;
+// UKCEH Brand Guidelines 2.0: the colour system is anchored on black; the other core colours are
+// highlights. Text is black on colour (or colour on black), never colour on white. Navy and yellow
+// are for charts only, so they're not used here. Arial is the approved fallback for Suisse International.
+$ukceh-black: #000000;
+$ukceh-white: #ffffff;
 $ukceh-mint: #D6EAE6;
+$ukceh-blue: #477AE2;
+$ukceh-green: #90A968;
+$ukceh-sand: #D7B7AA;
+$ukceh-lime: #DBFE52;
+// tints (for containers and backgrounds only)
+$ukceh-mint-50: #ebf5f4;
+$ukceh-mint-25: #f5f9f7;
 
-$primary: $ukceh-navy;
-$secondary: #5b6770;
-$success: #2f7d43;
+$body-color: #000;
+$body-bg: #fff;
+$primary: $ukceh-black;
+$secondary: #4a4a4a;
+$success: $ukceh-green;
 $info: $ukceh-blue;
-$warning: $ukceh-yellow;
+$warning: $ukceh-lime;
+$light: $ukceh-mint-50;
 $font-family-sans-serif: Arial, "Helvetica Neue", Helvetica, sans-serif;
 $headings-font-weight: 700;
-$link-color: #1f5aa6;
-$navbar-bg: $ukceh-navy;
-$navbar-fg: #ffffff;
-$navbar-hl: $ukceh-yellow;
-$footer-bg: #f3f6f5;
+$headings-color: #000;
+$link-color: #000;
+$link-decoration: underline;
+$link-hover-color: #000;
+$navbar-bg: $ukceh-black;
+$navbar-fg: $ukceh-white;
+$navbar-hl: $ukceh-lime;
+$footer-bg: $ukceh-mint-50;
+$footer-fg: #000;
+$toc-color: #000;
 $border-radius: .5rem;
 
 /*-- scss:rules --*/
-.navbar .nav-link[aria-label^="Share a story"],
+// links: black text with a blue underline (blue text on white fails the 5:1 contrast rule)
+main a:not(.btn):not(.tile):not(.quarto-grid-link) {
+  text-decoration-color: $ukceh-blue;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  &:hover { background: $ukceh-mint; }
+}
+.btn-primary { --bs-btn-color: #fff; --bs-btn-bg: #000; --bs-btn-border-color: #000; --bs-btn-hover-bg: #222; --bs-btn-hover-border-color: #222; --bs-btn-hover-color: #fff; }
+.btn-outline-primary { --bs-btn-color: #000; --bs-btn-border-color: #000; --bs-btn-hover-bg: #000; --bs-btn-hover-color: #fff; }
+.btn-warning, .btn-highlight { --bs-btn-color: #000; --bs-btn-bg: #{$ukceh-lime}; --bs-btn-border-color: #{$ukceh-lime}; --bs-btn-hover-bg: #c9ec3e; --bs-btn-hover-border-color: #c9ec3e; --bs-btn-hover-color: #000; }
+.btn-light { --bs-btn-color: #000; --bs-btn-bg: #fff; --bs-btn-border-color: #fff; }
+
+// the "Share your story" button in the menu: the one lime highlight
 .navbar a[href$="share-your-story.html"].nav-link {
-  background: $ukceh-yellow;
-  color: $ukceh-navy !important;
+  background: $ukceh-lime;
+  color: #000 !important;
   border-radius: 2rem;
   padding: .35rem 1rem !important;
   font-weight: 700;
   margin-left: .5rem;
 }
+.navbar .nav-link:hover, .navbar .nav-link:focus { color: $ukceh-lime; }
+
+// listing cards and categories
+.quarto-grid-item { border-color: #d9e3e0; }
+.quarto-grid-item:hover { border-color: #000; }
+.listing-category, .quarto-category { border-color: #000 !important; color: #000 !important; background: $ukceh-mint-50; }
+.callout { border-left-color: $ukceh-blue !important; }
+:focus-visible { outline: 3px solid $ukceh-blue; outline-offset: 2px; }
