@@ -1,0 +1,40 @@
+---
+title: "LepiSense"
+subtitle: "Lightweight autonomous imaging for moth and butterfly monitoring"
+---
+
+::: {.at-a-glance}
+**Status:** in development · **Focus:** imaging, low-power sensors, moths and butterflies
+
+**What you get:** photo sequences of night-flying moths; small datasets for quick tests; pilot-scale species lists.
+:::
+
+## What is LepiSense?
+
+LepiSense is a lightweight, smaller version of the [AMI system](ami.qmd), designed to make automated imaging of moths and butterflies more accessible, scalable and easier to deploy. Where AMI is built for high-volume, long-term global monitoring, LepiSense focuses on **lower-cost, portable deployments** for more experimental or resource-limited settings.
+
+It builds on everything learned from AMI, while putting simplicity, quick testing and smaller-scale data collection first.
+
+## Why LepiSense matters
+
+Traditional moth and butterfly surveys are often labour-intensive, depend on specialist expertise, and vary between sites and observers. LepiSense collects **standardised, automated photos** without needing the full AMI set-up. It's especially useful for:
+
+- pilot and feasibility studies;
+- student or short-term research projects;
+- monitoring on a small budget;
+- adding local sampling alongside larger AMI deployments;
+- testing models, workflows and new AI classifiers before scaling up.
+
+## Where it's being used
+
+LepiSense is in an **early testing phase**, with pilot deployments planned or under way across UKCEH projects: small test plots, feasibility deployments, testing alongside AMI traps, and calibration in climate-controlled chambers. Wider field deployments will follow.
+
+## How it works
+
+LepiSense follows the same principles as AMI:
+
+- **Lightweight hardware:** a compact imaging unit, low-power LEDs to attract insects, a small housing and a basic onboard computer for scheduling and logging, designed to be carried and set up quickly.
+- **Collecting data:** photos of moths and other night-flying insects on flexible schedules; well suited to short deployments; needs less storage than AMI.
+- **Analysis:** works with the same image models as AMI, through our [open-source toolkit](https://github.com/NERC-CEH/ceh-biomonitoring).
+
+The aim is a system that is **affordable, robust, easy to transport, compatible with AMI data**, and suitable for wide use in future student, partner and citizen-science programmes.

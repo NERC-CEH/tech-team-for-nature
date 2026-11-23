@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+// UKCEH colours (brand guidelines); Arial is the approved fallback for Suisse International.
+$ukceh-navy: #133b64;
+$ukceh-blue: #477AE2;
+$ukceh-green: #4db264;
+$ukceh-yellow: #f4c03d;
+$ukceh-mint: #D6EAE6;
+
+$primary: $ukceh-navy;
+$secondary: #5b6770;
+$success: #2f7d43;
+$info: $ukceh-blue;
+$warning: $ukceh-yellow;
+$font-family-sans-serif: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$headings-font-weight: 700;
+$link-color: #1f5aa6;
+$navbar-bg: $ukceh-navy;
+$navbar-fg: #ffffff;
+$navbar-hl: $ukceh-yellow;
+$footer-bg: #f3f6f5;
+$border-radius: .5rem;
+
+/*-- scss:rules --*/
+.navbar .nav-link[aria-label^="Share a story"],
+.navbar a[href$="share-your-story.html"].nav-link {
+  background: $ukceh-yellow;
+  color: $ukceh-navy !important;
+  border-radius: 2rem;
+  padding: .35rem 1rem !important;
+  font-weight: 700;
+  margin-left: .5rem;
+}

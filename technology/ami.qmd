@@ -1,0 +1,62 @@
+---
+title: "AMI light traps"
+subtitle: "Automated Monitoring of Insects: autonomous imaging traps for large-scale moth and insect monitoring"
+image: ../stories/2025-09-05-amber-machine-learning/ami-system.jpg
+---
+
+::: {.at-a-glance}
+**Status:** in active use · **Focus:** imaging, AI on the device, insect monitoring
+
+**What you get:** large photo collections of night-flying insects; species found, and how many; trends over seasons and years, compared across continents.
+:::
+
+## What is AMI?
+
+The AMI (Automated Monitoring of Insects) system is an autonomous imaging trap designed to monitor nocturnal insects, particularly moths, at scale. It uses UV and white lights to attract insects and a high-resolution camera to photograph them. The onboard computer (typically a Rock Pi) manages image capture, motion triggers, sampling schedules and data storage.
+
+AMI was developed to provide repeatable and standardised monitoring across sites, regions and countries. It delivers high-quality data with minimal manual effort, and is the foundation for global-scale insect biodiversity datasets.
+
+<video class="loop" src="../stories/2025-09-05-amber-machine-learning/ami-system.mp4" poster="../stories/2025-09-05-amber-machine-learning/ami-system.jpg" autoplay loop muted playsinline aria-label="Insects landing on an AMI trap's white screen at night"></video>
+
+## Who develops AMI?
+
+AMI is owned and developed by the **UK Centre for Ecology & Hydrology (UKCEH)**, with contributions from **Aarhus University**, **The Alan Turing Institute** and **Mila – Quebec AI Institute**.
+
+AMI systems are at the heart of technology-driven biodiversity programmes, including [AMBER](../projects/amber/index.qmd) (AI-assisted Monitoring of Biodiversity using Edge Processing and Remote Sensors), funded by the abrdn Charitable Foundation.
+
+## Why AMI matters
+
+Evidence shows that insect populations are declining fast, yet existing monitoring is often labour-intensive, inconsistent or geographically patchy. AMI provides:
+
+- **Autonomous, standardised sampling**, reducing observer bias and manual labour.
+- **High-volume, high-quality data**, essential for understanding species trends, timing and community change.
+- **Comparable data across continents**: the same design everywhere means measurements can be compared directly.
+- **Evidence for conservation and policy**: on land-use change, farming practices, climate impacts and whether habitat restoration is working.
+
+Work under way includes AI running **on the device** for rapid results, **telemetry** for checking systems remotely, **automated health checks** to cut down site visits, and links to cloud and high-performance computing for training and running models.
+
+## Where AMI is used
+
+By 2024, more than **40 AMI systems** had been deployed worldwide, in:
+
+- **the UK and Europe**: farms, nature reserves and long-term research plots;
+- **North and South America**: Canada, USA, Panama, Costa Rica and Argentina;
+- **Africa**: Kenya and Uganda;
+- **Asia**: Singapore and Japan;
+- **the Mediterranean**: test sites in Cyprus.
+
+See [where our partners work](../map/index.qmd).
+
+## How it works
+
+**Hardware:** UV and white lights to attract insects; high-resolution cameras; a Rock Pi (or similar) single-board computer; SSD and SD storage; solar panels and batteries for off-grid sites.
+
+**Collecting data:** sampling schedules set for each project (nightly, seasonal or experimental); motion or timed triggers; long deployments with little maintenance. Sound recording is in development.
+
+**Processing:** images go through UKCEH's insect models on cloud and high-performance computing, giving species found, abundance, community composition and long-term trends. [How the AI works](../stories/2025-09-05-amber-machine-learning/index.md).
+
+## Set one up
+
+The [AMI system deployment guide](https://github.com/AMI-system/ami-system-deployment-guide) covers the hardware. Then see [Setting up your sites](../how-to/sites.qmd) and [Sending us your data](../how-to/upload.qmd).
+
+**Partners:** UKCEH, Aarhus University, The Alan Turing Institute, Mila – Quebec AI Institute, and the [AMBER](../projects/amber/index.qmd) network.

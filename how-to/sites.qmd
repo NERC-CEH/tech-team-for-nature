@@ -1,0 +1,79 @@
+---
+title: "Set up your sites"
+order: 2
+# Copied from https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/setting-up-sites.md by tools/sync_howtos.py. Edit it there, not here.
+---
+
+::: {.callout-note appearance="minimal"}
+This guide is the same as the one in our [toolkit](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/setting-up-sites.md), and is updated automatically (last copied 23 November 2026).
+:::
+
+Before you can [upload data to UKCEH](upload.qmd), each device you've put out needs a **deployment**. This page explains what that is and how to ask for one. It takes a few minutes, and you only do it once per device per survey.
+
+For help setting up the hardware itself (AMI traps, LepiSense), see the [AMI system deployment guide](https://github.com/AMI-system/ami-system-deployment-guide).
+
+
+## What is a deployment?
+
+A deployment is **one device, at one site, for one survey period**. For example, "AudioMoth 24F3191 at Wytham Woods 1, May to September 2027".
+
+- **Two devices at the same site are two deployments**, even a metre apart.
+- **The same device at the same site in a new season is a new deployment.** Give it that season's dates.
+- **Moving a device to a new site makes a new deployment.**
+
+Every upload goes to one deployment, so that UKCEH always knows exactly where and when each photo or recording was taken.
+
+## What you need
+
+| Detail | Example | Tips |
+|---|---|---|
+| Your name | Sam Smith | |
+| Country | United Kingdom | chosen from a list. For a country not yet in the list, contact UKCEH |
+| Site name | Wytham Woods 1 | short and clear. Number your sites if there are several |
+| Latitude and longitude | 51.7714, -1.3389 | where the device actually is, in decimal degrees. In Google Maps, right-click the spot and click the numbers to copy them |
+| Device type | AudioMoth | AMI trap, LepiSense / AMI-mini, AudioMoth, Song Meter, Insect Detect or other |
+| Device ID | 24F3191 | the serial number or ID on the device, or in its file names |
+| First day of recording | 2027-05-01 | |
+| Last day of recording | 2027-09-30 | if you know it |
+
+## Ask for a deployment
+
+You need the [upload tool installed](upload.qmd#part-1-set-up-once) and your upload username and password.
+
+```
+cehbio deployments request
+```
+
+It asks for each detail in turn and checks it, e.g. that the coordinates are possible and that you don't already have the same device at the same site for the same dates. Then it shows you everything to confirm.
+
+Your request gets a deployment ID, e.g. `dep000171`, and is **pending**. UKCEH checks it, usually within a few working days, and makes it **active**. Once it's active, it appears in `cehbio upload`.
+
+## See your deployments
+
+```
+cehbio deployments list
+cehbio deployments list --country "United Kingdom"
+```
+
+| Status | Meaning |
+|---|---|
+| **active** | ready: you can upload to it |
+| **pending** | waiting for UKCEH to check it |
+| **inactive** | the survey has finished, so no more uploads |
+| **rejected** | not accepted: UKCEH will have been in touch |
+
+Inactive and rejected deployments only show with `--all`.
+
+## Something wrong?
+
+If you've made a mistake in a request, or a deployment's details change (e.g. the device was moved or the survey ends early), email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk) with the deployment ID. Please **don't** request a second deployment to correct the first.
+
+## For regular users
+
+Give every detail as an option to skip the questions:
+
+```
+cehbio deployments request --name "Sam Smith" --country "United Kingdom" --site "Wytham Woods 1" \
+    --lat 51.7714 --lon -1.3389 --device-type AudioMoth --device-id 24F3191 \
+    --start 2027-05-01 --end 2027-09-30 --yes
+```

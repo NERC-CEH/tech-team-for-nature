@@ -1,0 +1,37 @@
+---
+title: "Getting started"
+subtitle: "What happens when you monitor wildlife with us, from first conversation to results"
+order: 1
+---
+
+## The steps
+
+::: {.steps}
+1. **Agree a plan with us.** What you want to find out, which devices, how many sites, and for how long. We'll also agree how the data will be used and shared.
+2. **Set up the hardware.** For AMI light traps and LepiSense, follow the [AMI system deployment guide](https://github.com/AMI-system/ami-system-deployment-guide). For sound recorders and bat detectors, follow the maker's instructions.
+3. **Register each device.** Each device at each site is a *deployment*. Ask for one per device before you upload: see [Set up your sites](sites.qmd).
+4. **Record.** Leave the devices running. Check batteries and memory cards as agreed.
+5. **Send us your data.** Upload each deployment's photos or recordings: see [Send us your data](upload.qmd). We'll give you a username and password.
+6. **We process it.** AI models find and name the moths, birds or bats, and experts check a sample of the results.
+7. **Results.** You get species lists and a report, and often videos and soundscapes from your own sites.
+8. **Tell people about it!** [Share your story](share-your-story.qmd) for this website.
+:::
+
+## Before you go out
+
+Write these down for **each device**, on the day you set it up. They're needed to register the deployment and to read the results correctly:
+
+| What | Example |
+|---|---|
+| Site name | Wytham Woods 1 |
+| Where exactly | 51.7714, -1.3389 (in Google Maps, right-click the spot and click the numbers to copy them) |
+| Device type and ID | AudioMoth 24F3191 |
+| First and last day of recording | 1 May to 30 September 2027 |
+| **What time the device's clock keeps** | UTC, or local time? AudioMoths keep UTC unless set otherwise |
+| Anything unusual | moved after a storm, battery ran out in week 3, a cow knocked it over |
+
+Take a photo of each device in place. It helps us, and it's great for your story.
+
+## Who to ask
+
+Email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk) with any question, at any step.

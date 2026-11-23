@@ -1,0 +1,41 @@
+---
+title: "Our technology"
+subtitle: "Sensors that watch and listen for wildlife on their own, and the AI that makes sense of what they collect"
+toc: false
+---
+
+Most wildlife monitoring still relies on people in the field, which makes it patchy and hard to scale. Our systems record day and night for weeks or months, in the same way everywhere, so results can be compared between sites, seasons and countries. Machine learning then finds and names the animals, and experts check the results.
+
+::: {.card-grid}
+```{=html}
+<a class="tile" href="ami.html"><span class="tag">Imaging · in active use</span><h3>AMI light traps</h3><p>Autonomous light traps that photograph night-flying insects, especially moths.</p></a>
+```
+
+```{=html}
+<a class="tile" href="lepisense.html"><span class="tag">Imaging · in development</span><h3>LepiSense</h3><p>A smaller, lower-cost version of AMI for pilots and short projects.</p></a>
+```
+
+```{=html}
+<a class="tile" href="acoustics.html"><span class="tag">Sound · in active use</span><h3>Sound recorders</h3><p>AudioMoths and Song Meters that record birds and the wider soundscape.</p></a>
+```
+
+```{=html}
+<a class="tile" href="ultrasonic.html"><span class="tag">Ultrasound · in active use</span><h3>Bat detectors</h3><p>High-frequency recording of bats' echolocation calls.</p></a>
+```
+
+```{=html}
+<a class="tile" href="other.html"><span class="tag">Supporting methods</span><h3>Other technologies</h3><p>Soil, pollinator and environmental sensors that add context.</p></a>
+```
+:::
+
+## From recordings to results
+
+::: {.steps}
+1. **Record.** Systems run on their own in the field, often off-grid on solar power.
+2. **Upload.** Partners send their photos and recordings to UKCEH's secure data store ([how](../how-to/upload.qmd)).
+3. **Find and name.** AI models find each insect, bird call or bat pass and suggest what it is.
+4. **Check.** Experts check a sample of the suggestions, so the species lists can be trusted.
+5. **Report.** Results go back to partners as species lists, reports, videos and open data.
+:::
+
+Our software for steps 3 to 5 is open source: [the ceh-biomonitoring toolkit]({{< var toolkit >}}).

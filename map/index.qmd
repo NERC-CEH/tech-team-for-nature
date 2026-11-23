@@ -1,0 +1,23 @@
+---
+title: "Where we work"
+subtitle: "Monitoring systems run by our partners around the world"
+image: cover.jpg
+toc: false
+include-in-header:
+  text: |
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+---
+
+From tropical rainforests to farmland, urban parks and remote reserves, each system is run with a local partner. Each marker is a country, and the number is how many systems we've had there. Click one to see them, with a few of their photos.
+
+```{=html}
+<div class="stats" id="map-stats"></div>
+<div class="map-wrap column-page">
+<div id="deployment-map" role="region" aria-label="Map of the countries we work in"></div>
+<div id="map-panel" class="map-panel" role="region" aria-label="Systems in the chosen country" hidden aria-live="polite"></div>
+</div>
+<script src="map.js"></script>
+```
+
+**We never show where systems are.** To protect sites, wildlife and landowners, markers sit in the middle of each country, and sites aren't named. The photos are a few nights picked from each system, busiest first. The number of systems is from our deployment list (<span id="map-asof"></span>), and photo counts are from early 2026. Some systems have no count or photos yet.

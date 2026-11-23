@@ -1,0 +1,45 @@
+---
+title: "Sound recorders"
+subtitle: "Passive acoustic monitoring: small recorders that listen for wildlife for weeks at a time"
+---
+
+::: {.at-a-glance}
+**Status:** in active use · **Focus:** sound recording, soundscapes, finding species by their calls
+
+**What you get:** bird species found in continuous recordings; soundscape measures that summarise habitat; calls of bats, amphibians and insects.
+:::
+
+## What is acoustic monitoring?
+
+Acoustic monitoring uses small, autonomous sound recorders to capture the soundscape: birds, bats, amphibians, insects, mammals and environmental sounds. Unlike imaging systems such as [AMI](ami.qmd), it focuses on **species that are easier to hear than see**, and it can sample continuously over long periods with very little fieldwork.
+
+## Recorders we use
+
+- **AudioMoth**: an ultra-low-cost, open-source autonomous recorder.
+- **Song Meter recorders (Wildlife Acoustics)**: high-quality field units for bird and bat surveys.
+- **Bat detectors**: for ultrasonic bat monitoring ([more](ultrasonic.qmd)).
+- **Custom-built recorders**: specialised units for research projects and long-term observatories.
+
+## Why it matters
+
+- Many species, especially **birds, bats and amphibians**, are best found by sound.
+- Recorders can run **continuously**, at all hours.
+- They give **non-intrusive**, standardised sampling over long periods.
+- They are **portable and inexpensive**, so they can be used widely.
+- Recordings are a **permanent archive** that can be re-analysed as models improve.
+
+Acoustic monitoring helps reveal which birds live in a place, how active bats are, when amphibians breed, and how habitat quality changes over time.
+
+## How it works
+
+**Recording:** recorders are set to record continuously or on a schedule, for example the dawn chorus or the night, and run for weeks or months with little maintenance.
+
+**Processing:** AI models, such as BirdNET and Perch for birds and BatDetect2 for bats, find and name the calls. Acoustic indices summarise the whole soundscape. Experts then check a sample, so the species lists can be trusted.
+
+**Results:** species found at each site, how often they call, biodiversity indicators, and evidence for restoration and long-term change. Recordings can also become [videos and soundscapes](https://github.com/NERC-CEH/ceh-biomonitoring#5-visualisation) to share.
+
+Acoustic monitoring sits alongside our imaging systems, so together they give a fuller picture: what is seen, what is heard, and the environmental context.
+
+## Try it
+
+Our [open-source toolkit](https://github.com/NERC-CEH/ceh-biomonitoring) runs the bird and bat models on your own recordings. Partners working with us can [send us their recordings](../how-to/upload.qmd).

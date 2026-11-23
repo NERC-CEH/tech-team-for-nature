@@ -1,0 +1,27 @@
+---
+title: "How-to guides"
+subtitle: "Short, step-by-step guides for partners. No programming or GitHub needed."
+toc: false
+---
+
+## Working with us
+
+::: {.card-grid}
+```{=html}
+<a class="tile" href="getting-started.html"><span class="tag">Start here</span><h3>Getting started</h3><p>What happens, from first conversation to results, and what you'll need.</p></a>
+<a class="tile" href="sites.html"><span class="tag">Before you record</span><h3>Set up your sites</h3><p>Tell us where each device is, so every photo and recording can be traced to its site.</p></a>
+<a class="tile" href="upload.html"><span class="tag">After you record</span><h3>Send us your data</h3><p>Upload photos or recordings from your SD cards or computer, step by step.</p></a>
+<a class="tile" href="share-your-story.html"><span class="tag">Any time</span><h3>Share your story</h3><p>Fieldwork, a great find or project news: fill in a short form and we'll put it on this site.</p></a>
+```
+:::
+
+## Setting up the hardware
+
+- **AMI light traps and LepiSense:** the [AMI system deployment guide](https://github.com/AMI-system/ami-system-deployment-guide).
+- **Sound recorders and bat detectors:** follow the maker's instructions, and see [Getting started](getting-started.qmd#before-you-go-out) for what to note down.
+
+## Analysing data yourself
+
+Our [open-source toolkit](https://github.com/NERC-CEH/ceh-biomonitoring) runs the same AI models we use, on your own computer, in Python or R. It has its own guides: finding birds, bats and moths, having results checked by experts, reports, and making videos and soundscapes.
+
+**Stuck?** Email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk).

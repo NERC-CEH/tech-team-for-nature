@@ -1,0 +1,35 @@
+---
+title: "Other technologies"
+subtitle: "Supporting methods that capture what images and sound can't"
+---
+
+These methods complement our main systems. They help capture parts of biodiversity and the environment that photos and recordings miss, from life in the soil to pollinators and the microclimate.
+
+## Soil monitoring
+
+Below-ground biodiversity and processes, through:
+
+- **eDNA sampling**, to find soil invertebrates, microbes, fungi and plant DNA;
+- **soil health indicators**: organic matter, moisture, nutrients and structure;
+- **microbial community profiling**, to understand microbial diversity and what microbes do.
+
+These help interpret the patterns seen in light-trap and sound surveys.
+
+## Pollinator monitoring
+
+We are exploring camera-based insect counters, such as Insect Detect, which:
+
+- record visits to flowers;
+- find and name pollinators with machine learning;
+- capture behaviour and activity patterns;
+- support studies of crop pollination and ecosystem function.
+
+This is an active area of development.
+
+## Environmental sensors
+
+Temperature, humidity, light, rainfall and soil-moisture loggers, and microclimate stations, provide the context needed to link wildlife records to conditions on the ground.
+
+## How they fit together
+
+These methods are supporting layers rather than standalone systems. They add context for modelling biodiversity, connect what happens above and below ground, and strengthen long-term datasets. We'll add more experimental technologies and pilot sensors here as they develop.

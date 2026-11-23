@@ -1,0 +1,14 @@
+---
+title: "Projects"
+subtitle: "Where our technology is being used, with partners around the world"
+toc: false
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  sort: ["order", "title"]
+  fields: [image, title, description, categories]
+  image-height: 200px
+  categories: true
+---
+
+Projects come and go, and the technology stays. Each project page explains what was done, with whom and what was found. See also [where we work](../map/index.qmd).

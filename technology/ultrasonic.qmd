@@ -1,0 +1,46 @@
+---
+title: "Bat detectors"
+subtitle: "Ultrasonic monitoring: recording bats' echolocation calls, far above human hearing"
+---
+
+::: {.at-a-glance}
+**Status:** in active use · **Focus:** ultrasound, bat call recognition, high-frequency sensors
+
+**What you get:** which bats are at each site; bat activity over nights, weeks or seasons; echolocation calls and spectrograms.
+:::
+
+## What is ultrasonic monitoring?
+
+Ultrasonic monitoring captures **high-frequency sounds**, mainly from bats but also from some insects and small mammals. These frequencies (typically **20–120 kHz**) are beyond human hearing, so they need specialised recorders and models. It gives detailed information on how bats behave, use habitats and how active they are, which visual or standard sound recording can't capture.
+
+## Recorders we use
+
+- **AudioMoth (ultrasonic mode)**: low-cost and portable, widely used in research and large bat surveys.
+- **Bat detectors**: higher-fidelity devices for detailed call structure, where species-level identification matters, and for long-term plots.
+- **Custom UKCEH recorders**, for research trials within AMBER and related programmes.
+
+## Why it matters
+
+Bats are important indicators and respond quickly to environmental change. Ultrasonic monitoring lets us:
+
+- assess bat **activity** and which species are present;
+- understand how bats use landscapes for feeding, commuting and roosting;
+- evaluate the effects of habitat change, land management and restoration;
+- monitor protected sites and infrastructure projects;
+- detect changes in bat populations under climate change.
+
+It is continuous, non-intrusive and gives large, standardised datasets over the long term.
+
+## How it works
+
+**Recording:** detectors run from sunset to sunrise, capturing echolocation calls, social calls and feeding buzzes, often thousands of call sequences a night.
+
+**Processing:** models such as **BatDetect2** and the **BTO Acoustic Pipeline** find the calls and suggest the species, or the group where calls can't be told apart. An expert then checks examples of each species at each site. UKCEH's own methods choose the best nights to sample and turn the checked calls into reliable species lists.
+
+**Results:** the bats at each site, their activity through the night and the season, and summaries for reports and long-term baselines.
+
+## Try it
+
+Our [open-source toolkit](https://github.com/NERC-CEH/ceh-biomonitoring) runs BatDetect2 on your own recordings. Partners working with us can [send us their recordings](../how-to/upload.qmd).
+
+**Partners:** UKCEH, the British Trust for Ornithology (BTO), and academic and conservation partners.

@@ -1,0 +1,55 @@
+---
+title: "Partners and funders"
+subtitle: "Research, technology and conservation organisations we work with"
+---
+
+## Research and technology partners
+
+- **UK Centre for Ecology & Hydrology (UKCEH)**: leads the work, and develops the AMI system and the AI.
+- **The Alan Turing Institute**: AI, software and data infrastructure for AMBER.
+- **Aarhus University** and **Mila – Quebec AI Institute**: AMI hardware and AI models.
+- **British Trust for Ornithology (BTO)**: the bat Acoustic Pipeline.
+
+```{=html}
+<div class="logos">
+  <figure><img src="../assets/logos/UKCEH_logo.png" alt="UK Centre for Ecology & Hydrology"></figure>
+  <figure><img src="../assets/logos/ATI_logo.png" alt="The Alan Turing Institute"></figure>
+</div>
+```
+
+## Deployment partners
+
+The organisations running monitoring systems in their own countries, many through [AMBER](../projects/amber/index.qmd).
+
+```{=html}
+<div class="logos">
+  <figure><img src="../assets/logos/CRI_osa_conservation.png" alt=""><figcaption>Osa Conservation · Costa Rica</figcaption></figure>
+  <figure><img src="../assets/logos/CRI_organization_of_tropical_studies.png" alt=""><figcaption>Organization for Tropical Studies · Costa Rica</figcaption></figure>
+  <figure><img src="../assets/logos/smithsonian.png" alt=""><figcaption>Smithsonian Tropical Research Institute · Panama</figcaption></figure>
+  <figure><img src="../assets/logos/KEN_university_of_embu.png" alt=""><figcaption>University of Embu · Kenya</figcaption></figure>
+  <figure><img src="../assets/logos/KEN_national_museum_of_kenya.png" alt=""><figcaption>National Museums of Kenya</figcaption></figure>
+  <figure><img src="../assets/logos/KEN_tropical_biology_association.png" alt=""><figcaption>Tropical Biology Association · Kenya</figcaption></figure>
+  <figure><img src="../assets/logos/KEN_dekut.png" alt=""><figcaption>Dedan Kimathi University of Technology · Kenya</figcaption></figure>
+  <figure><img src="../assets/logos/makerere.png" alt=""><figcaption>Makerere University, Kampala · Uganda</figcaption></figure>
+  <figure><img src="../assets/logos/NAM_perivoli_rangeland_institute.png" alt=""><figcaption>Perivoli Rangeland Institute · Namibia</figcaption></figure>
+  <figure><img src="../assets/logos/jos.png" alt=""><figcaption>Jos Institute · Nigeria</figcaption></figure>
+  <figure><img src="../assets/logos/mad_bio_centre.png" alt=""><figcaption>Madagascar Biodiversity Centre</figcaption></figure>
+  <figure><img src="../assets/logos/SGP_nanyang_technological_university.png" alt=""><figcaption>Nanyang Technological University · Singapore</figcaption></figure>
+  <figure><img src="../assets/logos/THA_national_science_museum_thailand.png" alt=""><figcaption>National Science Museum · Thailand</figcaption></figure>
+  <figure><img src="../assets/logos/JAP_chuo_university.png" alt=""><figcaption>Chuo University · Japan</figcaption></figure>
+</div>
+```
+
+In Anguilla we work with the **Anguilla National Trust** ([the project](../projects/anguilla/index.qmd)).
+
+## Funders
+
+- **abrdn Charitable Foundation**: the AMBER project.
+- **UK Government Biodiversity Challenge Funds (Darwin Plus and Darwin Local)**: work in Anguilla.
+- **UKCEH**: core funding.
+
+```{=html}
+<div class="logos">
+  <figure><img src="../assets/logos/aberdeen_logo.png" alt="abrdn Charitable Foundation"></figure>
+</div>
+```

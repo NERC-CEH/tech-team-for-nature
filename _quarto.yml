@@ -1,0 +1,101 @@
+# The website's settings. The site's NAME is set here (title) and in _variables.yml (name, full-name):
+# change both to rename the site.
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "**/*.md"
+    - "!README.md"
+    - "!CONTRIBUTING.md"
+    - "!templates/"
+  resources:
+    - "**/*.mp4"
+    - "**/*.docx"
+    - "map/deployments.json"
+    - "map/map.js"
+    - "map/photos/*"
+    - "stories/*/*.jpg"
+
+website:
+  title: "UKCEH Tech for Nature"
+  description: "Automated biodiversity monitoring at the UK Centre for Ecology & Hydrology: light traps, sound recorders and AI that turn them into wildlife records."
+  site-url: "https://nerc-ceh.github.io/tech-for-nature/"
+  favicon: assets/favicon.ico
+  image: assets/hero.jpg
+  open-graph: true
+  search: true
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    logo: assets/logo.png
+    logo-alt: "Moth logo"
+    left:
+      - text: "Our technology"
+        menu:
+          - text: "Overview"
+            href: technology/index.qmd
+          - text: "---"
+          - href: technology/ami.qmd
+            text: "AMI light traps"
+          - href: technology/lepisense.qmd
+            text: "LepiSense"
+          - href: technology/acoustics.qmd
+            text: "Sound recorders"
+          - href: technology/ultrasonic.qmd
+            text: "Bat detectors"
+          - href: technology/other.qmd
+            text: "Other technologies"
+      - text: "Projects"
+        menu:
+          - text: "All projects"
+            href: projects/index.qmd
+          - text: "Where we work (map)"
+            href: map/index.qmd
+      - text: "Stories"
+        menu:
+          - text: "Stories"
+            href: stories/index.qmd
+          - text: "News"
+            href: news/index.qmd
+          - text: "Fieldwork diaries"
+            href: diaries/index.qmd
+      - text: "How-to guides"
+        href: how-to/index.qmd
+      - text: "About"
+        menu:
+          - text: "About us"
+            href: about/index.qmd
+          - text: "Team"
+            href: about/team.qmd
+          - text: "Partners and funders"
+            href: about/partners.qmd
+          - text: "Contact"
+            href: about/contact.qmd
+    right:
+      - text: "Share your story"
+        href: how-to/share-your-story.qmd
+        aria-label: "Share a story, news item or fieldwork diary"
+  page-footer:
+    left: "© UK Centre for Ecology & Hydrology"
+    center:
+      - text: "Contact"
+        href: about/contact.qmd
+      - text: "Share your story"
+        href: how-to/share-your-story.qmd
+    right:
+      - icon: github
+        href: https://github.com/NERC-CEH/ceh-biomonitoring
+        aria-label: "The open-source toolkit on GitHub"
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/theme.scss]
+    css: assets/site.css
+    toc: true
+    toc-title: "On this page"
+    toc-depth: 2
+    anchor-sections: true
+    link-external-newwindow: true
+    lang: en-GB

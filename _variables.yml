@@ -1,0 +1,7 @@
+# Words used across the site. Use them in a page as {{< var name >}}.
+name: "Tech for Nature"
+full-name: "UKCEH Tech for Nature"
+email: "alyduf@ceh.ac.uk"
+# The partner form (Posit Connect). Change once it's live.
+share-form: "https://connect-apps.ceh.ac.uk/tech-for-nature-share/"
+toolkit: "https://github.com/NERC-CEH/ceh-biomonitoring"

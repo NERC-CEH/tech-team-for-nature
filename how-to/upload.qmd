@@ -1,0 +1,182 @@
+---
+title: "Send us your data"
+order: 3
+# Copied from https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/upload-guide.md by tools/sync_howtos.py. Edit it there, not here.
+---
+
+::: {.callout-note appearance="minimal"}
+This guide is the same as the one in our [toolkit](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/upload-guide.md), and is updated automatically (last copied 23 November 2026).
+:::
+
+This guide is for partners who collect data with UKCEH's automated monitoring systems, such as AMI light traps, LepiSense units or acoustic recorders, and send it to UKCEH for processing. It explains how to upload your images or sound recordings to the UKCEH data store, step by step. You don't need any programming experience.
+
+If anything goes wrong or you have a question, email **Alyssa Duffy** at [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk).
+
+
+## What you need
+
+- **An upload username and password.** UKCEH gives these to partners when it has been agreed that UKCEH will process their data. If you don't have them, email Alyssa Duffy at [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk).
+- **A deployment for each device**: one device at one site for one survey. See [Setting up your sites](sites.qmd).
+- **Your survey data**, such as an SD card or a folder on your computer. One upload covers one deployment, so keep each deployment's data in its own folder. Folders inside it are fine; they are searched too.
+- **A computer** running Windows, macOS or Linux, with an internet connection.
+
+You set up your computer once (Part 1). After that, every upload is Part 2.
+
+---
+
+## Part 1: Set up (once)
+
+Nothing needs installing first, and you don't need administrator rights. The installer fetches everything the upload tool needs (including its own copy of Python) and keeps it in one folder, without changing anything else on your computer.
+
+### 1. Get the installer
+
+- **If UKCEH sent you the partner upload pack**, unzip it (right-click the `.zip`, then **Extract All**). The installer is in it.
+- **Otherwise**, go to [github.com/NERC-CEH/ceh-biomonitoring](https://github.com/NERC-CEH/ceh-biomonitoring), click the green **Code** button, then **Download ZIP**, and unzip it.
+
+### 2. Run it
+
+- **Windows:** double-click **`install-windows.bat`**. If it asks which pipelines, just press **Enter**. If Windows says it protected your PC, click **More info**, then **Run anyway**.
+- **Mac or Linux:** open **Terminal**, type `bash ` (with a space after it), drag the file **`install.sh`** into the Terminal window, and press Enter.
+
+It takes a minute or two. When it says **Done**, close the window.
+
+If your computer is managed by your organisation and it says programs are blocked, ask your IT team to allow the installer, or email us.
+
+### 3. Check it worked
+
+Open a **new** window: on Windows, **Windows PowerShell** (search for it in the Start menu); on a Mac or Linux, **Terminal**. Type:
+
+```
+cehbio --help
+```
+
+and press Enter. You should see a list of commands, including `upload`. You're ready.
+
+---
+
+## Part 2: Upload your data (every time)
+
+### 1. Start the upload tool
+
+Open **Windows PowerShell** (Windows) or **Terminal** (Mac/Linux) and type:
+
+```
+cehbio upload
+```
+
+You don't need to be in any particular folder.
+
+### 2. Answer the questions
+
+The tool asks you, one at a time:
+
+| Question | What to enter |
+|---|---|
+| **Upload service username** and **password** | The ones UKCEH gave you. The password stays hidden as you type, which is normal. |
+| **Your full name** | So we know who sent the data. |
+| **Country** | Type the number next to your country. `Test` is only for trying the tool out. |
+| **Deployment** | Type the number next to your site and camera or recorder. If yours isn't listed, stop and email us. |
+| **What are you uploading?** | `snapshot_images` for trap photos (`.jpg`), `audible_recordings` for normal sound recordings (`.wav`), `ultrasound_recordings` for bat recordings (`.wav`). |
+| **Folder with the files** | The folder or SD card with this deployment's data, e.g. `E:\` or `C:\Users\you\Desktop\site1`. |
+
+**Tip for the folder:** on Windows, you can drag the folder from File Explorer into the PowerShell window to paste its path. On a Mac, drag it into Terminal. Quotation marks around the path are fine.
+
+### 3. Try a test first
+
+The tool asks: **"Try 10 random files first as a test?"** For your first upload of a deployment, type `yes`. It then uploads only 10 files, so you can check everything works before the full upload. Afterwards, run `cehbio upload` again and answer `no` to do the rest; the 10 test files are skipped.
+
+### 4. Check the summary and start
+
+Before uploading, the tool shows a summary:
+
+```
+  Name:        Your Name
+  Destination: <country> / <deployment> / snapshot_images
+  Files:       5321 from E:\
+  Log:         ...
+```
+
+**Check the number of files.** It should match roughly what you expect from that deployment. If it is much bigger, you may have chosen a folder that contains other data; if it is 0 or very small, see [Problems and questions](#problems-and-questions).
+
+If everything looks right, type `yes` to start. The tool shows its progress as it goes:
+
+- **uploaded:** sent to UKCEH
+- **already there:** UKCEH already has this file, so it was skipped
+- **failed:** something went wrong with this file (see below)
+
+### 5. When it finishes
+
+The tool tells you how many files were uploaded, skipped and failed. **If any failed, run `cehbio upload` again with the same answers.** Only the files that haven't gone up yet are tried again.
+
+You can close the window when it's finished. Uploading a large deployment can take several hours; keep the computer switched on and connected.
+
+---
+
+## Good to know
+
+- **Your files are never changed, moved or deleted.** The tool only reads them.
+- **Interrupted?** If your computer goes to sleep, loses its connection or you close the window, just run `cehbio upload` again with the same answers. It carries on where it left off.
+- **Nothing is uploaded twice.** Files already on the UKCEH data store are skipped.
+- **What gets uploaded:** for images, `.jpg` files; for sound, `.wav` files. Other files, very small or empty files (under 10 KB) and the recycle bin are ignored. **Zip files are not uploaded**: unzip them first.
+- **A record of every upload is kept for you.** Every file is logged in a spreadsheet (`.csv`) in the `ceh-biomonitoring-results\upload_logs` folder inside your user folder, e.g. `C:\Users\you\ceh-biomonitoring-results\upload_logs` (if you first used the tool before November 2026: `C:\Users\you\ceh-biomonitoring\outputs\upload_logs`). If you contact us about an upload, it helps to attach this log.
+- **Updating the tool:** occasionally we may ask you to update. Run the installer again (Part 1, step 2), from the newest pack or download.
+
+---
+
+## Problems and questions
+
+**Some files failed to upload.**
+This is usually a short break in the internet connection or the upload service. Run `cehbio upload` again with the same answers; only the failed files are retried. If they still fail a few hours later, email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk) and attach the upload log (see [Good to know](#good-to-know)).
+
+**My deployment isn't in the list.**
+Don't upload it somewhere else. Ask for it with `cehbio deployments request`: see [Setting up your sites](sites.qmd). Once UKCEH has approved it, it appears in the list.
+
+**I uploaded files to the wrong deployment or data type.**
+Email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk) as soon as you can, saying what you uploaded and where to. We'll move the files to the right place.
+
+**It says "That folder doesn't exist", or it finds far fewer files than I expect.**
+- Check the path is complete. Drag the folder into the window to paste it exactly.
+- Your computer's security settings may block access to some places, such as some network drives or OneDrive folders that aren't downloaded. Copy the files to a folder on your computer, e.g. on your Desktop, and upload from there.
+- Check you chose the right data type: images look for `.jpg` files, recordings for `.wav` files.
+
+**It finds many more files than I expect.**
+You've probably chosen a folder that also contains other deployments' data. Choose the folder for just this deployment.
+
+**It says the username or password is wrong.**
+Check them carefully; they are case-sensitive. If they still don't work, email us.
+
+**"cehbio is not recognized" or "command not found".**
+Close the window and open a new one: windows opened before the install don't know about `cehbio` yet. If it still isn't found, run the installer again. On Windows, this always works too:
+
+```
+& "$env:LOCALAPPDATA\ceh-biomonitoring\env\Scripts\cehbio.exe" upload
+```
+
+**`cehbio` is blocked by my computer's security.**
+Some organisations block programs they don't recognise. Use this instead, which does exactly the same:
+
+```
+& "$env:LOCALAPPDATA\ceh-biomonitoring\env\Scripts\python.exe" -m ceh_biomonitoring upload
+```
+
+(on a Mac or Linux: `~/.local/share/ceh-biomonitoring/env/bin/python -m ceh_biomonitoring upload`)
+
+If that is blocked too, ask your IT team, or email us.
+
+**How do I return to the upload tool after closing the window?**
+You don't need to set anything up again. Start from [Part 2](#part-2-upload-your-data-every-time).
+
+**How do I remove everything once our survey has finished?**
+Delete the folder the installer made: on Windows, `%LOCALAPPDATA%\ceh-biomonitoring` (paste that into File Explorer's address bar), and the file `cehbio.cmd` in `%USERPROFILE%\.local\bin`; on a Mac or Linux, `~/.local/share/ceh-biomonitoring` and `~/.local/bin/cehbio`. Keep the upload logs if you'd like a record of what you sent.
+
+---
+
+## For regular uploaders
+
+You can give all the answers in one command and skip the questions, for example:
+
+```
+cehbio upload --name "Your Name" --country "United Kingdom" --deployment "Site name" --data-type snapshot_images --folder E:\ --yes
+```
+
+The username and password are still asked for. To avoid typing them each time, on a computer that only you use, either set the environment variables `CEHBIO_UPLOAD_USER` and `CEHBIO_UPLOAD_PASSWORD`, or put them in your credentials file as `UKCEH_username` and `UKCEH_password` (see `credentials/credentials.example.json`). `cehbio upload --help` lists every option.

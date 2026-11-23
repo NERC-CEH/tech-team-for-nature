@@ -1,0 +1,8 @@
+---
+title: "Page not found"
+toc: false
+---
+
+Sorry, that page isn't here. It may have moved when we brought the AMBER and WildSense sites together.
+
+[Go to the home page](/index.qmd){.btn .btn-primary} [Stories](/stories/index.qmd){.btn .btn-outline-primary} [How-to guides](/how-to/index.qmd){.btn .btn-outline-primary}

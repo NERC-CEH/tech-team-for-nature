@@ -1,0 +1,14 @@
+---
+title: "Contact"
+toc: false
+---
+
+For collaborations, deployments, uploads or anything else:
+
+**Email:** [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk)
+
+- **Want to share a story or news?** Use the [short form](../how-to/share-your-story.qmd).
+- **Sending us data?** See [Send us your data](../how-to/upload.qmd).
+- **Using our software?** Questions and problems are welcome on [GitHub](https://github.com/NERC-CEH/ceh-biomonitoring/issues).
+
+UK Centre for Ecology & Hydrology, Maclean Building, Benson Lane, Crowmarsh Gifford, Wallingford, Oxfordshire OX10 8BB, UK. [ceh.ac.uk](https://www.ceh.ac.uk)

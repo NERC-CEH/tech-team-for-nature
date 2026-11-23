@@ -1,0 +1,23 @@
+---
+title: "About us"
+subtitle: "UKCEH's Tech for Nature team: automated monitoring, AI and collaborative science"
+---
+
+## Why we do this
+
+Biodiversity is changing rapidly, but most monitoring is still manual, patchy and hard to scale. We develop and use automated systems, and the analysis behind them, to help fill those gaps: light traps that photograph moths all night, recorders that listen for birds and bats, and AI that turns millions of photos and recordings into wildlife records that experts can trust.
+
+## What we do
+
+- **Build and test monitoring systems**, from AMI light traps to sound recorders, in the lab and the field.
+- **Develop the AI** that finds and names wildlife in photos and recordings, and the workflows that check it.
+- **Work with partners** around the world to run monitoring networks, from UK farms to tropical forests.
+- **Share openly**: our [toolkit](https://github.com/NERC-CEH/ceh-biomonitoring) is open source, and records are shared through platforms such as GBIF where possible.
+
+## Who we are
+
+We are part of the **UK Centre for Ecology & Hydrology (UKCEH)**, an independent, not-for-profit research institute. We combine ecology, data science, engineering and partnerships. [Meet the team](team.qmd).
+
+## Work with us
+
+Whether you're designing a new monitoring project, scaling up an existing network, or exploring how automated systems could support your work, we'd love to talk. [Get in touch](contact.qmd).

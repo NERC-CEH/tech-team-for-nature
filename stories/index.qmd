@@ -1,0 +1,16 @@
+---
+title: "Stories"
+subtitle: "Stories from our projects: the wildlife we find, how the technology works, and what we learn."
+toc: false
+listing:
+  contents: "*/index.*"
+  type: grid
+  sort: "date desc"
+  fields: [image, date, title, description, author, categories]
+  image-height: 190px
+  categories: true
+  feed: true
+  page-size: 12
+---
+
+Got something to share? [Send us your story, news or diary](../how-to/share-your-story.qmd): it's a short form, and the team will check it before it goes live.

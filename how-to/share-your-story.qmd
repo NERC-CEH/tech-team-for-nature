@@ -1,0 +1,35 @@
+---
+title: "Share your story"
+subtitle: "Fieldwork, an exciting find, or news from your project: we'd love to put it on this site"
+order: 4
+toc: false
+---
+
+```{=html}
+<p><a class="btn btn-warning btn-lg" href="https://connect-apps.ceh.ac.uk/tech-for-nature-share/" target="_blank" rel="noopener">Open the form</a></p>
+```
+
+Anyone can send us something. You don't need an account.
+
+::: {.steps}
+1. **Choose what it is:** a story, a news item or a fieldwork diary.
+2. **Write it** in your own words: a title, one or two sentences that sum it up, and the text. Write it as you'd tell a friend.
+3. **Add photos** if you have them (up to 10), with a caption and who took each one. For videos, put them on YouTube or Vimeo and paste the link.
+4. **Send it.** The UKCEH team reads every submission. We may tidy the wording or choose the photos, and we'll get in touch if we have questions. Once it's approved, it appears here, usually within a few working days.
+:::
+
+## Before you send
+
+- **Photos:** only send photos you took, or have permission to use. If people can be recognised, check they're happy to be on a public website. For children, ask a parent or guardian.
+- **Locations:** please don't give the exact location of rare or sensitive species, nests or roosts, or of private land. "A farm in Dorset" is fine. We remove the hidden location data from your photos anyway.
+- **Your details:** your name appears with your story only if you want it to. Your email address is only for us to contact you, and never appears on the site.
+
+## Ideas
+
+- A night at the trap: what turned up?
+- Your first week with a new recorder, and what you learned.
+- A species you didn't expect.
+- A school, community or open-day event.
+- A result from your project, in plain words.
+
+Questions? Email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk).
