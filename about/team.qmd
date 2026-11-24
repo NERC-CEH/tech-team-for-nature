@@ -2,7 +2,7 @@
 title: "Team"
 subtitle: "The people behind the technology"
 toc: false
-# Hidden until the current team list is in (draft pages are left off the site).
+# Hidden until the roles marked ROLE TO CONFIRM are checked (draft pages are left off the site).
 draft: true
 ---
 
@@ -12,6 +12,8 @@ draft: true
 
 ```{=html}
 <div class="people">
+  <div><span class="initials" aria-hidden="true">AD</span><strong>Alyssa Duffy</strong><span>ROLE TO CONFIRM</span></div>
+  <div><span class="initials" aria-hidden="true">AL</span><strong>Abigail Lowe</strong><span>ROLE TO CONFIRM</span></div>
   <div><img src="../assets/people/tom.jpg" alt=""><strong>Tom August</strong><span>Computational Ecologist</span></div>
   <div><img src="../assets/people/jonas.jpg" alt=""><strong>Jonas Beuchert</strong><span>Wildlife Monitoring Engineer</span></div>
   <div><img src="../assets/people/dylan.jpg" alt=""><strong>Dylan Carbone</strong><span>Research Associate, Data Scientist</span></div>
