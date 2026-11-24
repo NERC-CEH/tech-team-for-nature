@@ -109,18 +109,31 @@
      "records": [
       "moths"
      ],
-     "when": "Feb 2024 to Mar 2025",
-     "images": 160707,
+     "when": "Feb 2024 to Dec 2024",
+     "images": 14701,
      "photos": [
       "photos/costa-rica/2-1.jpg",
       "photos/costa-rica/2-2.jpg",
-      "photos/costa-rica/2-3.jpg",
-      "photos/costa-rica/2-4.jpg",
-      "photos/costa-rica/2-5.jpg"
+      "photos/costa-rica/2-3.jpg"
      ]
     },
     {
      "label": "System 3",
+     "records": [
+      "moths"
+     ],
+     "when": "Feb 2024 to Mar 2025",
+     "images": 160707,
+     "photos": [
+      "photos/costa-rica/3-1.jpg",
+      "photos/costa-rica/3-2.jpg",
+      "photos/costa-rica/3-3.jpg",
+      "photos/costa-rica/3-4.jpg",
+      "photos/costa-rica/3-5.jpg"
+     ]
+    },
+    {
+     "label": "System 4",
      "records": [
       "moths",
       "sound",
@@ -129,37 +142,20 @@
      "when": "Feb 2024 to Nov 2025",
      "images": 283429,
      "photos": [
-      "photos/costa-rica/3-1.jpg",
-      "photos/costa-rica/3-2.jpg",
-      "photos/costa-rica/3-3.jpg",
-      "photos/costa-rica/3-4.jpg"
-     ]
-    },
-    {
-     "label": "System 4",
-     "records": [
-      "moths",
-      "sound"
-     ],
-     "when": "Jan 2024 to Jan 2025",
-     "images": 266863,
-     "photos": [
       "photos/costa-rica/4-1.jpg",
       "photos/costa-rica/4-2.jpg",
       "photos/costa-rica/4-3.jpg",
-      "photos/costa-rica/4-4.jpg",
-      "photos/costa-rica/4-5.jpg"
+      "photos/costa-rica/4-4.jpg"
      ]
     },
     {
      "label": "System 5",
      "records": [
       "moths",
-      "sound",
-      "bats"
+      "sound"
      ],
-     "when": "Feb 2024 to Aug 2025",
-     "images": 429383,
+     "when": "Jan 2024 to Jan 2025",
+     "images": 266863,
      "photos": [
       "photos/costa-rica/5-1.jpg",
       "photos/costa-rica/5-2.jpg",
@@ -172,10 +168,11 @@
      "label": "System 6",
      "records": [
       "moths",
-      "sound"
+      "sound",
+      "bats"
      ],
      "when": "Feb 2024 to Aug 2025",
-     "images": 69961,
+     "images": 429383,
      "photos": [
       "photos/costa-rica/6-1.jpg",
       "photos/costa-rica/6-2.jpg",
@@ -188,16 +185,16 @@
      "label": "System 7",
      "records": [
       "moths",
-      "sound",
-      "bats"
+      "sound"
      ],
-     "when": "Feb 2024 to Aug 2024",
-     "images": 559357,
+     "when": "Feb 2024 to Aug 2025",
+     "images": 69961,
      "photos": [
       "photos/costa-rica/7-1.jpg",
       "photos/costa-rica/7-2.jpg",
       "photos/costa-rica/7-3.jpg",
-      "photos/costa-rica/7-4.jpg"
+      "photos/costa-rica/7-4.jpg",
+      "photos/costa-rica/7-5.jpg"
      ]
     },
     {
@@ -207,8 +204,8 @@
       "sound",
       "bats"
      ],
-     "when": "Feb 2024 to Jun 2025",
-     "images": 472299,
+     "when": "Feb 2024 to Aug 2024",
+     "images": 559357,
      "photos": [
       "photos/costa-rica/8-1.jpg",
       "photos/costa-rica/8-2.jpg",
@@ -223,26 +220,30 @@
       "sound",
       "bats"
      ],
-     "when": "Jan 2024 to Nov 2025",
-     "images": 535909,
+     "when": "Feb 2024 to Jun 2025",
+     "images": 472299,
      "photos": [
       "photos/costa-rica/9-1.jpg",
       "photos/costa-rica/9-2.jpg",
       "photos/costa-rica/9-3.jpg",
-      "photos/costa-rica/9-4.jpg",
-      "photos/costa-rica/9-5.jpg"
+      "photos/costa-rica/9-4.jpg"
      ]
     },
     {
      "label": "System 10",
      "records": [
-      "moths"
+      "moths",
+      "sound",
+      "bats"
      ],
-     "when": "Feb 2024 to Dec 2024",
-     "images": 14701,
+     "when": "Jan 2024 to Nov 2025",
+     "images": 535909,
      "photos": [
       "photos/costa-rica/10-1.jpg",
-      "photos/costa-rica/10-2.jpg"
+      "photos/costa-rica/10-2.jpg",
+      "photos/costa-rica/10-3.jpg",
+      "photos/costa-rica/10-4.jpg",
+      "photos/costa-rica/10-5.jpg"
      ]
     }
    ]
@@ -914,8 +915,8 @@
       "sound",
       "bats"
      ],
-     "when": "Jul 2024 to Oct 2025",
-     "images": 396839,
+     "when": "Apr 2024 to Oct 2025",
+     "images": 559270,
      "photos": [
       "photos/thailand/1-1.jpg",
       "photos/thailand/1-2.jpg",
@@ -931,13 +932,14 @@
       "sound",
       "bats"
      ],
-     "when": "Jul 2024 to Jan 2026",
-     "images": 103341,
+     "when": "Jul 2024 to Oct 2025",
+     "images": 396839,
      "photos": [
       "photos/thailand/2-1.jpg",
       "photos/thailand/2-2.jpg",
       "photos/thailand/2-3.jpg",
-      "photos/thailand/2-4.jpg"
+      "photos/thailand/2-4.jpg",
+      "photos/thailand/2-5.jpg"
      ]
     },
     {
@@ -947,14 +949,13 @@
       "sound",
       "bats"
      ],
-     "when": "Jul 2024 to Feb 2026",
-     "images": 653540,
+     "when": "Jul 2024 to Jan 2026",
+     "images": 103341,
      "photos": [
       "photos/thailand/3-1.jpg",
       "photos/thailand/3-2.jpg",
       "photos/thailand/3-3.jpg",
-      "photos/thailand/3-4.jpg",
-      "photos/thailand/3-5.jpg"
+      "photos/thailand/3-4.jpg"
      ]
     },
     {
@@ -964,8 +965,8 @@
       "sound",
       "bats"
      ],
-     "when": "Jul 2024 to Apr 2025",
-     "images": 266897,
+     "when": "Jul 2024 to Feb 2026",
+     "images": 653540,
      "photos": [
       "photos/thailand/4-1.jpg",
       "photos/thailand/4-2.jpg",
@@ -981,13 +982,14 @@
       "sound",
       "bats"
      ],
-     "when": "Apr 2024 to Oct 2025",
-     "images": 559270,
+     "when": "Jul 2024 to Apr 2025",
+     "images": 266897,
      "photos": [
       "photos/thailand/5-1.jpg",
       "photos/thailand/5-2.jpg",
       "photos/thailand/5-3.jpg",
-      "photos/thailand/5-4.jpg"
+      "photos/thailand/5-4.jpg",
+      "photos/thailand/5-5.jpg"
      ]
     }
    ]
