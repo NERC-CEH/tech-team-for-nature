@@ -41,7 +41,6 @@ There are two ways to do it. Choose the one that fits you. You can also start on
 <a class="tile" href="working-with-ukceh.html"><span class="tag">Start here</span><h3>How it works</h3><p>From first conversation to results: the steps, what we do, and what to note down in the field.</p></a>
 <a class="tile" href="sites.html"><span class="tag">Before you record</span><h3>Set up your sites</h3><p>Tell us where each device is, so every photo and recording can be traced to its site.</p></a>
 <a class="tile" href="upload.html"><span class="tag">After you record</span><h3>Send us your data</h3><p>Upload photos or recordings from your SD cards or computer, step by step.</p></a>
-<a class="tile" href="share-your-story.html"><span class="tag">Any time</span><h3>Share your story</h3><p>Fieldwork, a great find or project news: fill in a short form and we'll put it on this site.</p></a>
 ```
 :::
 

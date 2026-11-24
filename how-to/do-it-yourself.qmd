@@ -61,7 +61,7 @@ Our free toolkit, **[ceh-biomonitoring](https://github.com/NERC-CEH/ceh-biomonit
 - **Make reports.** [Reporting](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/reporting.md) makes summary tables and reports (HTML, Word, PDF), with the weather and the moon for each night. The tables also work with [EntoInsights](https://github.com/AMI-system/EntoInsights).
 - **Make videos and soundscapes.** [Videos and soundscapes](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/videos.md) turns a night at the trap or a day of sound into something to show people.
 - **Share your records.** Checked records are valuable to science and conservation. In the UK, send them to [iRecord](https://irecord.org.uk) (which feeds the [NBN Atlas](https://nbnatlas.org)). Anywhere, they can go to [GBIF](https://www.gbif.org/publishing-data). Leave out exact locations of sensitive species.
-- **Tell people about it.** [Share your story](share-your-story.qmd) on this site. We'd love to hear from you.
+- **Tell people about it.** We'd love to hear how it went: [email us](mailto:{{< var email >}}).
 
 ## Help
 

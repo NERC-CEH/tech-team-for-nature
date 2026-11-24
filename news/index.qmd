@@ -13,4 +13,3 @@ listing:
   page-size: 12
 ---
 
-Got something to share? [Send us your story, news or diary](../how-to/share-your-story.qmd): it's a short form, and the team will check it before it goes live.

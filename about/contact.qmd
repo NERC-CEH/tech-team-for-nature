@@ -7,7 +7,7 @@ For collaborations, deployments, uploads or anything else:
 
 **Email:** [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk)
 
-- **Want to share a story or news?** Use the [short form](../how-to/share-your-story.qmd).
+- **A partner with a story or news?** Use **Partner login** at the top of the page.
 - **Sending us data?** See [Send us your data](../how-to/upload.qmd).
 - **Using our software?** Questions and problems are welcome on [GitHub](https://github.com/NERC-CEH/ceh-biomonitoring/issues).
 

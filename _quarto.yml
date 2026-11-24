@@ -72,8 +72,6 @@ website:
             href: how-to/sites.qmd
           - text: "Send us your data"
             href: how-to/upload.qmd
-          - text: "Share your story"
-            href: how-to/share-your-story.qmd
       - text: "About"
         menu:
           - text: "About us"
@@ -83,16 +81,14 @@ website:
           - text: "Contact"
             href: about/contact.qmd
     right:
-      - text: "Share your story"
-        href: how-to/share-your-story.qmd
-        aria-label: "Share a story, news item or fieldwork diary"
+      - text: "Partner login"
+        href: https://connect-apps.ceh.ac.uk/tech-for-nature-share/
+        aria-label: "Partner login: sign in to share a story, news item or fieldwork diary"
   page-footer:
     left: "© UK Centre for Ecology & Hydrology"
     center:
       - text: "Contact"
         href: about/contact.qmd
-      - text: "Share your story"
-        href: how-to/share-your-story.qmd
     right:
       - icon: github
         href: https://github.com/NERC-CEH/ceh-biomonitoring

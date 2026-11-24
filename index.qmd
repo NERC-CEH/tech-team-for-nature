@@ -76,10 +76,6 @@ Our partners run monitoring systems across ten countries, from UK farms and wood
 ```
 
 ```{=html}
-<a class="tile" href="how-to/share-your-story.html"><span class="tag">Partners</span><h3>Share your story</h3><p>Tell us about your fieldwork, an exciting find or news from your project. Fill in a short form and we'll do the rest.</p></a>
-```
-
-```{=html}
 <a class="tile" href="https://github.com/NERC-CEH/ceh-biomonitoring" target="_blank" rel="noopener"><span class="tag">Researchers</span><h3>Use our tools</h3><p>Our open-source toolkit runs the same AI models on your own data, in Python or R.</p></a>
 ```
 :::

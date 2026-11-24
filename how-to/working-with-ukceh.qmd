@@ -29,7 +29,7 @@ For partners on a project with us. You put the devices out and send us the data.
 5. **Send us your data.** Upload each deployment's photos or recordings: see [Send us your data](upload.qmd). We'll give you a username and password.
 6. **We process it.** AI models find and name the moths, birds or bats, and experts check a sample of the results.
 7. **Results.** You get species lists and a report, and often videos and soundscapes from your own sites.
-8. **Tell people about it!** [Share your story](share-your-story.qmd) for this website.
+8. **Tell people about it!** Sign in with **Partner login** (top right) to send us a story, news or a fieldwork diary for this website.
 :::
 
 ## Before you go out
