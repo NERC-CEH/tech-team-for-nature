@@ -14,7 +14,7 @@ project:
     - "**/*.docx"
     - "map/deployments.json"
     - "map/map.js"
-    - "map/photos/*"
+    - "map/photos/*/*.jpg"
     - "stories/*/*.jpg"
 
 website:
@@ -61,7 +61,19 @@ website:
           - text: "Fieldwork diaries"
             href: diaries/index.qmd
       - text: "How-to guides"
-        href: how-to/index.qmd
+        menu:
+          - text: "All guides"
+            href: how-to/index.qmd
+          - text: "Do it yourself"
+            href: how-to/do-it-yourself.qmd
+          - text: "Working with UKCEH"
+            href: how-to/working-with-ukceh.qmd
+          - text: "Set up your sites"
+            href: how-to/sites.qmd
+          - text: "Send us your data"
+            href: how-to/upload.qmd
+          - text: "Share your story"
+            href: how-to/share-your-story.qmd
       - text: "About"
         menu:
           - text: "About us"

@@ -1,27 +1,48 @@
 ---
 title: "How-to guides"
-subtitle: "Short, step-by-step guides for partners. No programming or GitHub needed."
+subtitle: "Monitoring wildlife with cameras, light traps and sound recorders: on your own, or with us"
 toc: false
 ---
 
-## Working with us
+There are two ways to do it. Choose the one that fits you. You can also start on your own and work with us later, or the other way round.
+
+::: {.route-grid}
+```{=html}
+<a class="route" href="do-it-yourself.html">
+  <span class="tag">On your own</span>
+  <h3>Do it yourself</h3>
+  <p>Everything we use is free and open. Build or buy the hardware, run the same AI models we use on your own computer, check the results and share your records. We point you to the right guide for each step.</p>
+  <span class="route-go">Start on your own &rarr;</span>
+</a>
+<a class="route route-dark" href="working-with-ukceh.html">
+  <span class="tag">With UKCEH</span>
+  <h3>Working with UKCEH</h3>
+  <p>For partners on a project with us. You put the devices out and send us the data; we process it, have experts check it and send you the results. No coding needed.</p>
+  <span class="route-go">Work with us &rarr;</span>
+</a>
+```
+:::
+
+## Do it yourself
 
 ::: {.card-grid}
 ```{=html}
-<a class="tile" href="getting-started.html"><span class="tag">Start here</span><h3>Getting started</h3><p>What happens, from first conversation to results, and what you'll need.</p></a>
+<a class="tile" href="do-it-yourself.html#plan-your-survey"><span class="tag">1. Plan</span><h3>Plan your survey</h3><p>What to record, which devices, how many sites, and for how long.</p></a>
+<a class="tile" href="do-it-yourself.html#get-the-hardware"><span class="tag">2. Hardware</span><h3>Get the hardware</h3><p>Light traps, sound recorders and bat detectors: where to find build guides and makers' instructions.</p></a>
+<a class="tile" href="do-it-yourself.html#find-the-wildlife"><span class="tag">3. Analyse</span><h3>Find the wildlife</h3><p>Install our free toolkit and find birds, bats and moths in your own recordings and photos.</p></a>
+<a class="tile" href="do-it-yourself.html#check-report-and-share"><span class="tag">4. Use it</span><h3>Check, report and share</h3><p>Have results checked by experts, make reports and videos, and add your records to national databases.</p></a>
+```
+:::
+
+## Working with UKCEH
+
+::: {.card-grid}
+```{=html}
+<a class="tile" href="working-with-ukceh.html"><span class="tag">Start here</span><h3>How it works</h3><p>From first conversation to results: the steps, what we do, and what to note down in the field.</p></a>
 <a class="tile" href="sites.html"><span class="tag">Before you record</span><h3>Set up your sites</h3><p>Tell us where each device is, so every photo and recording can be traced to its site.</p></a>
 <a class="tile" href="upload.html"><span class="tag">After you record</span><h3>Send us your data</h3><p>Upload photos or recordings from your SD cards or computer, step by step.</p></a>
 <a class="tile" href="share-your-story.html"><span class="tag">Any time</span><h3>Share your story</h3><p>Fieldwork, a great find or project news: fill in a short form and we'll put it on this site.</p></a>
 ```
 :::
 
-## Setting up the hardware
-
-- **AMI light traps and LepiSense:** the [AMI system deployment guide](https://github.com/AMI-system/ami-system-deployment-guide).
-- **Sound recorders and bat detectors:** follow the maker's instructions, and see [Getting started](getting-started.qmd#before-you-go-out) for what to note down.
-
-## Analysing data yourself
-
-Our [open-source toolkit](https://github.com/NERC-CEH/ceh-biomonitoring) runs the same AI models we use, on your own computer, in Python or R. It has its own guides: finding birds, bats and moths, having results checked by experts, reports, and making videos and soundscapes.
-
-**Stuck?** Email [alyduf@ceh.ac.uk](mailto:alyduf@ceh.ac.uk).
+**Not sure which is for you, or stuck?** Email [{{< var email >}}](mailto:{{< var email >}}).

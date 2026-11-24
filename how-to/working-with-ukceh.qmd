@@ -1,8 +1,23 @@
 ---
-title: "Getting started"
+title: "Working with UKCEH"
 subtitle: "What happens when you monitor wildlife with us, from first conversation to results"
-order: 1
+order: 2
+aliases:
+  - getting-started.html
 ---
+
+For partners on a project with us. You put the devices out and send us the data. We process it, have experts check it, and send you the results. You don't need to install or code anything. Want to do some or all of it yourself? See [Do it yourself](do-it-yourself.qmd).
+
+## What we do, and what you do
+
+| | You | UKCEH |
+|---|---|---|
+| **Plan** | Tell us what you want to find out | Help design the survey; agree how the data will be used and shared |
+| **Hardware** | Put the devices out, check batteries and cards | Advise on which devices and settings to use |
+| **Sites** | Send us each device's details | Register each one as a deployment |
+| **Data** | Upload photos or recordings | Store them safely, and process them with our AI models |
+| **Checking** | | Experts check a sample of the results; regional species lists and noise filtering |
+| **Results** | Tell us what you need | Species lists, reports, and often videos and soundscapes from your sites |
 
 ## The steps
 

@@ -1,0 +1,70 @@
+---
+title: "Do it yourself"
+subtitle: "Monitor wildlife on your own with free, open tools: where to find what you need at each step"
+order: 1
+---
+
+Everything we use is open: the hardware designs, the AI models and our toolkit. This page doesn't repeat their guides. It tells you which guide you need at each step, and what to watch out for.
+
+You don't need to be a programmer. The toolkit is used by typing short commands, and each guide shows you exactly what to type. If you'd rather we did the processing, see [Working with UKCEH](working-with-ukceh.qmd).
+
+## Plan your survey
+
+Before you buy or build anything, decide:
+
+- **What you want to find out.** Which species are here? Is a habitat improving? How does one site compare with another? The question decides everything else.
+- **What to record.** Moths and other night-flying insects: a light trap with a camera. Birds and other calling animals: a sound recorder. Bats: an ultrasonic recorder (bat detector).
+- **How many sites, and for how long.** More sites tell you more than one site recorded for longer. For comparisons, record at the same times of year, with the same devices and settings.
+- **Permission.** Ask the landowner, and check any local rules for protected sites or species.
+
+The [Technology](../technology/index.qmd) pages describe each kind of device.
+
+## Get the hardware
+
+| Device | Where to start |
+|---|---|
+| **AMI light trap** (camera, light and computer in one) | The [AMI system deployment guide](https://github.com/AMI-system/ami-system-deployment-guide): parts, building, setting up and putting it out. |
+| **LepiSense** (a smaller, cheaper light trap) | [Email us](mailto:{{< var email >}}): the guide isn't public yet. |
+| **AudioMoth** (sound or bats) | [Open Acoustic Devices](https://www.openacousticdevices.info): buying, the configuration app and settings. |
+| **Song Meter** (sound or bats) | [Wildlife Acoustics](https://www.wildlifeacoustics.com): the manual for your model. |
+
+**Watch out for:**
+
+- **The clock.** Set each device's clock before it goes out, and write down whether it keeps UTC or local time. AudioMoths keep UTC unless you set them otherwise. A wrong clock puts every result on the wrong night.
+- **File names.** Keep the names the device gives its files. The toolkit reads the date and time from them: see [Recorders and file names](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/recorders.md).
+- **Notes.** For each device, write down the site, exact location, device ID, first and last day, and anything unusual. Take a photo of it in place. The table in [Working with UKCEH](working-with-ukceh.qmd#before-you-go-out) is a good checklist either way.
+
+## Find the wildlife
+
+Our free toolkit, **[ceh-biomonitoring](https://github.com/NERC-CEH/ceh-biomonitoring)**, runs the same AI models we use, on Windows, Mac or Linux, from a terminal or from R.
+
+::: {.steps}
+1. **Install it.** Follow [Install](https://github.com/NERC-CEH/ceh-biomonitoring#install). On Windows, download it and double-click `install-windows.bat`. No administrator rights are needed.
+2. **Try the examples.** [Start here](https://github.com/NERC-CEH/ceh-biomonitoring#start-here) shows you how to run it on example data, then on 20 of your own files.
+3. **Run it on everything**, with the guide for what you recorded:
+    - **Birds:** [Birds](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/birds.md) (BirdNET or Perch)
+    - **Bats:** [Bats](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/bats.md) (BatDetect2)
+    - **Moths and other insects:** [Images](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/images.md) (light-trap photos)
+4. **Big jobs:** [Running and results](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/running.md) covers long runs, computing clusters and what each results file is.
+5. **Prefer R?** [Using R](https://github.com/NERC-CEH/ceh-biomonitoring#using-r) does all of this from R.
+:::
+
+**Watch out for:**
+
+- **The models make mistakes.** Treat their results as suggestions until someone has checked them (next section), especially rare species and species far outside their usual range.
+- **Moth species models are regional.** There are models for the UK and several other countries. Elsewhere you'll get insects found and sorted into groups, but not always named to species. [Email us](mailto:{{< var email >}}) to ask about your region.
+- **Licences.** Some models are free for non-commercial use only. See [Models, licences and acknowledgements](https://github.com/NERC-CEH/ceh-biomonitoring#models-licences-and-acknowledgements) before using results in paid work.
+
+## Check, report and share
+
+- **Have the results checked.** [Manual validation](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/validation.md) picks a fair sample for experts to check: audio clips with spectrograms, or moth photos in [Mothbot](https://mothbot-classify.vercel.app). Local recording groups and county recorders are often glad to help.
+- **Make reports.** [Reporting](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/reporting.md) makes summary tables and reports (HTML, Word, PDF), with the weather and the moon for each night. The tables also work with [EntoInsights](https://github.com/AMI-system/EntoInsights).
+- **Make videos and soundscapes.** [Videos and soundscapes](https://github.com/NERC-CEH/ceh-biomonitoring/blob/main/docs/videos.md) turns a night at the trap or a day of sound into something to show people.
+- **Share your records.** Checked records are valuable to science and conservation. In the UK, send them to [iRecord](https://irecord.org.uk) (which feeds the [NBN Atlas](https://nbnatlas.org)). Anywhere, they can go to [GBIF](https://www.gbif.org/publishing-data). Leave out exact locations of sensitive species.
+- **Tell people about it.** [Share your story](share-your-story.qmd) on this site. We'd love to hear from you.
+
+## Help
+
+- **Something not working in the toolkit?** Open an [issue on GitHub](https://github.com/NERC-CEH/ceh-biomonitoring/issues), or email us.
+- **Want a hand with part of it?** We can do any step for you, such as the processing, expert checking or reports. See [Working with UKCEH](working-with-ukceh.qmd).
+- **Anything else:** [{{< var email >}}](mailto:{{< var email >}}).

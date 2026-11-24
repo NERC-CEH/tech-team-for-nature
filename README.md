@@ -22,7 +22,7 @@ Built with [Quarto](https://quarto.org) and published on GitHub Pages: every cha
 index.qmd            home page
 technology/          AMI, LepiSense, sound recorders, bat detectors, other
 projects/            one folder per project
-map/                 where we work (deployments.json: country totals; no UK site names)
+map/                 where we work (deployments.json + photos/: one marker per country, no coordinates or site names; tools/build_map.py)
 stories/ news/ diaries/   one folder per post: index.md + its photos
 how-to/              partner guides (upload.qmd, sites.qmd copied from the toolkit)
 about/               about, team, partners and funders, contact
