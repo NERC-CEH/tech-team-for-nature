@@ -116,6 +116,7 @@ video.loop { width: 100%; border-radius: .5rem; background: #000; }
 
 /* story, news and diary pages: the card photo as a wide banner (assets/post-hero.lua) */
 .post-hero { margin: 0 0 1.75rem; }
+.post-hero figcaption { font-size: .9rem; color: #4a4a4a; margin-top: .4rem; }
 .post-hero img { width: 100%; max-height: 460px; object-fit: cover; border-radius: 1rem; display: block; }
 .gallery a img:hover { outline: 3px solid #DBFE52; }
 
@@ -146,3 +147,6 @@ video.loop { width: 100%; border-radius: .5rem; background: #000; }
 @media (max-width: 760px) { .band { grid-template-columns: 1fr; padding: 1.25rem; } }
 .tech-zone { border-top: 2px solid #000; margin-top: 3rem; padding-top: 1.5rem; }
 .tech-zone .tile { background: #f5f9f7; }
+
+/* photos placed in a story: tall ones shouldn't fill the screen */
+main .quarto-figure img { max-height: 80vh; width: auto; max-width: 100%; }

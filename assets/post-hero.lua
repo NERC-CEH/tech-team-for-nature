@@ -1,5 +1,5 @@
 -- Story, news and diary pages: show the post's card image (its `image:`) as a wide photo at the top.
--- Turn it off for one post with `hero: false` (e.g. when the photo is already in the text).
+-- image-alt and image-caption (optional) describe it. Turn it off for one post with `hero: false` (e.g. when the photo is already in the text).
 local function esc(s) return (s:gsub('[&<>"]', { ["&"] = "&amp;", ["<"] = "&lt;", [">"] = "&gt;", ['"'] = "&quot;" })) end
 
 function Pandoc(doc)
@@ -8,7 +8,9 @@ function Pandoc(doc)
   local src = pandoc.utils.stringify(m.image)
   if src == "" or src:match("^%a+:") or src:match("^/") then return doc end
   local alt = m["image-alt"] and pandoc.utils.stringify(m["image-alt"]) or ""
+  local cap = m["image-caption"] and pandoc.utils.stringify(m["image-caption"]) or ""
   table.insert(doc.blocks, 1, pandoc.RawBlock("html",
-    '<figure class="post-hero"><img src="' .. esc(src) .. '" alt="' .. esc(alt) .. '"></figure>'))
+    '<figure class="post-hero"><img src="' .. esc(src) .. '" alt="' .. esc(alt) .. '">' ..
+    (cap ~= "" and ('<figcaption>' .. esc(cap) .. '</figcaption>') or "") .. '</figure>'))
   return doc
 end
