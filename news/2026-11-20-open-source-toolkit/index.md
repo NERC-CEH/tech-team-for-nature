@@ -3,6 +3,8 @@ title: "Our toolkit is open source"
 description: "The software we use to find birds, bats and moths in recordings and photos is now free for anyone to use, in Python or R."
 date: 2026-11-20
 author: "UKCEH Tech for Nature"
+image: cover.jpg
+image-alt: "A trap photo with every insect found and boxed by the AI"
 categories: [News, Software]
 ---
 

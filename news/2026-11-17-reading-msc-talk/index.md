@@ -3,6 +3,8 @@ title: "Automated ID for farming research: a talk for Reading MSc students"
 description: "Alyssa Duffy showed University of Reading MSc students how cameras, recorders and AI can help sustainable agriculture research."
 date: 2026-11-17
 author: "UKCEH Tech for Nature"
+image: cover.jpg
+image-alt: "An AMI light trap in a meadow"
 categories: [Events, Talks]
 ---
 

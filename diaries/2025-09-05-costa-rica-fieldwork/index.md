@@ -4,6 +4,7 @@ description: "Join Dr Jenna Lawson in a five-part video series as she deploys AM
 date: 2025-09-05
 author: "Jenna Lawson"
 image: jenna.jpg
+hero: false            # the photo is already beside the text
 categories: [AMBER, Costa Rica, Video]
 ---
 

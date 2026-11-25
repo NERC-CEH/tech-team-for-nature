@@ -31,6 +31,28 @@ website:
     logo: assets/logo.png
     logo-alt: "Moth logo"
     left:
+      - text: "Stories"
+        menu:
+          - text: "Stories"
+            href: stories/index.qmd
+          - text: "News"
+            href: news/index.qmd
+          - text: "Fieldwork diaries"
+            href: diaries/index.qmd
+      - text: "Projects"
+        menu:
+          - text: "All projects"
+            href: projects/index.qmd
+          - text: "Where we work (map)"
+            href: map/index.qmd
+      - text: "About"
+        menu:
+          - text: "About us"
+            href: about/index.qmd
+          - text: "Partners and funders"
+            href: about/partners.qmd
+          - text: "Contact"
+            href: about/contact.qmd
       - text: "Our technology"
         menu:
           - text: "Overview"
@@ -46,20 +68,6 @@ website:
             text: "Bat detectors"
           - href: technology/other.qmd
             text: "Other technologies"
-      - text: "Projects"
-        menu:
-          - text: "All projects"
-            href: projects/index.qmd
-          - text: "Where we work (map)"
-            href: map/index.qmd
-      - text: "Stories"
-        menu:
-          - text: "Stories"
-            href: stories/index.qmd
-          - text: "News"
-            href: news/index.qmd
-          - text: "Fieldwork diaries"
-            href: diaries/index.qmd
       - text: "How-to guides"
         menu:
           - text: "All guides"
@@ -72,14 +80,6 @@ website:
             href: how-to/sites.qmd
           - text: "Send us your data"
             href: how-to/upload.qmd
-      - text: "About"
-        menu:
-          - text: "About us"
-            href: about/index.qmd
-          - text: "Partners and funders"
-            href: about/partners.qmd
-          - text: "Contact"
-            href: about/contact.qmd
     right:
       - text: "Partner login"
         href: https://connect-apps.ceh.ac.uk/tech-for-nature-share/

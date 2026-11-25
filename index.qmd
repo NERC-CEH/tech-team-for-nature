@@ -5,79 +5,142 @@ body-classes: home-page
 toc: false
 page-layout: full
 listing:
-  id: latest
-  contents:
-    - "stories/*/index.*"
-    - "news/*/index.*"
-    - "diaries/*/index.*"
-  type: grid
-  sort: "date desc"
-  max-items: 6
-  fields: [image, date, title, description, categories]
-  image-height: 180px
-  categories: false
-  page-size: 6
+  - id: latest
+    contents:
+      - "stories/*/index.*"
+      - "news/*/index.*"
+      - "diaries/*/index.*"
+    type: grid
+    sort: "date desc"
+    max-items: 6
+    fields: [image, date, title, description]
+    image-height: 200px
+    categories: false
+    page-size: 6
+  - id: home-projects
+    contents: "projects/*/index.qmd"
+    type: grid
+    sort: ["order", "title"]
+    fields: [image, title, description]
+    image-height: 200px
+    categories: false
 ---
 
+<!-- The home page is for everyone, so it starts with pictures and stories; the technical pages
+     (technology, how-to guides, the toolkit) are at the bottom. -->
+
 ```{=html}
-<div class="hero">
-  <img src="assets/hero.jpg" alt="An automated moth trap glowing at night">
+<div class="hero night">
+  <img src="news/2026-11-24-new-website/trap.jpg" alt="A light trap glowing at night in a tropical forest, its screen covered in insects">
   <div class="hero-text">
-    <h1>Watching wildlife, automatically</h1>
-    <p>We build and use light traps, sound recorders and bat detectors that work on their own, day and night, and the AI that turns millions of photos and recordings into wildlife records. We work with partners around the world to understand and protect biodiversity.</p>
+    <span class="kicker">Nature never sleeps</span>
+    <h1>Neither do our cameras</h1>
+    <p>We watch wildlife night and day with cameras, microphones and AI, from UK farms to tropical forests, and share what we find with the people who protect it.</p>
     <div>
-      <a class="btn btn-warning btn-lg" href="technology/index.html">Our technology</a>
-      <a class="btn btn-light btn-lg" href="how-to/index.html">How-to guides</a>
+      <a class="btn btn-warning btn-lg" href="stories/index.html">Read our stories</a>
+      <a class="btn btn-light btn-lg" href="map/index.html">Where we work</a>
     </div>
   </div>
+</div>
+
+<div class="big-numbers" id="home-numbers" aria-label="Our systems in numbers">
+  <div><strong>11</strong>countries</div>
+  <div><strong>149</strong>systems in the field</div>
+  <div><strong>16 million</strong>photos of wildlife</div>
+  <div><strong>Every</strong>night, all night</div>
 </div>
 ```
 
 ::: {.content-block}
 
-## What we do
+## Latest from the field
 
-::: {.card-grid}
-```{=html}
-<a class="tile" href="technology/ami.html"><span class="tag">Light traps for moths</span><h3>AMI and LepiSense</h3><p>Cameras and lights that photograph night-flying insects, all night, every night.</p></a>
-```
-
-```{=html}
-<a class="tile" href="technology/acoustics.html"><span class="tag">Sound</span><h3>Sound recorders</h3><p>Small recorders that capture birdsong and the soundscape for weeks at a time.</p></a>
-```
-
-```{=html}
-<a class="tile" href="technology/ultrasonic.html"><span class="tag">Ultrasound</span><h3>Bat detectors</h3><p>Recorders that pick up bats' echolocation calls, far above human hearing.</p></a>
-```
-
-```{=html}
-<a class="tile" href="stories/2025-09-05-amber-machine-learning/index.html"><span class="tag">AI and experts</span><h3>From data to wildlife records</h3><p>Machine learning finds and names the animals; experts check the results.</p></a>
-```
+::: {.section-intro}
+Stories, news and diaries from our team and our partners around the world.
 :::
-
-## Latest stories, news and diaries
 
 :::{#latest}
 :::
 
-[All stories](stories/index.qmd){.btn .btn-outline-primary} [News](news/index.qmd){.btn .btn-outline-primary} [Fieldwork diaries](diaries/index.qmd){.btn .btn-outline-primary}
+[All stories](stories/index.qmd){.btn .btn-dark} [News](news/index.qmd){.btn .btn-outline-dark} [Fieldwork diaries](diaries/index.qmd){.btn .btn-outline-dark}
 
-## Where we work
+## What our cameras see
 
-Our partners run monitoring systems across ten countries, from UK farms and woodlands to tropical forests in Costa Rica, Panama, Singapore and Thailand.
+::: {.section-intro}
+Our light traps photograph every insect that lands on them, all night. Here are a few of our favourites.
+:::
 
-[See the map](map/index.qmd){.btn .btn-primary}
+```{=html}
+<div class="mosaic">
+  <a class="big" href="stories/2025-09-05-amber-big-beautiful-moths/index.html"><img src="stories/2025-09-05-amber-big-beautiful-moths/cover.jpg" alt="A trap screen with big moths of many shapes and colours" loading="lazy"><span>Big, beautiful moths</span></a>
+  <a href="projects/anguilla/index.html"><img src="projects/anguilla/hero.jpg" alt="A hawk-moth on a light trap's white screen" loading="lazy"><span>Moths new to Anguilla</span></a>
+  <a href="news/2025-11-25-anguilla-night-hike/index.html"><img src="news/2025-11-25-anguilla-night-hike/lizard-on-tree.jpg" alt="A lizard on a tree at night" loading="lazy"><span>Night walks in Anguilla</span></a>
+  <a class="wide" href="map/index.html#costa-rica"><img src="map/photos/costa-rica/1-2.jpg" alt="A trap screen in Costa Rica covered in small insects" loading="lazy"><span>One night on the screen in Costa Rica</span></a>
+  <a href="diaries/2025-09-05-costa-rica-fieldwork/index.html"><img src="diaries/2025-09-05-costa-rica-fieldwork/jenna.jpg" alt="A scientist setting up a monitoring system" loading="lazy"><span>Fieldwork in Costa Rica</span></a>
+  <a href="projects/amber/index.html"><img src="projects/amber/hero.jpg" alt="A group of people looking inside a monitoring system" loading="lazy"><span>Working with partners</span></a>
+  <a href="map/index.html#nigeria"><img src="map/photos/nigeria/1-1.jpg" alt="A trap screen in Nigeria with many small moths" loading="lazy"><span>A busy night in Nigeria</span></a>
+  <a href="stories/2025-09-05-amber-wildlife-encounters/index.html"><img src="news/2025-11-25-anguilla-night-hike/night-hike-moth.jpg" alt="A moth on a leaf at night" loading="lazy"><span>Wildlife encounters</span></a>
+</div>
+```
 
-## Working with us?
+## Our projects
+
+::: {.section-intro}
+We work with partners who know their places best, from island trusts to universities.
+:::
+
+:::{#home-projects}
+:::
+
+```{=html}
+<div class="band">
+  <div>
+    <h2>Where we work</h2>
+    <p>Our systems have run in 11 countries, on farms, in woodlands, on islands and in rainforests. Explore the map to see a few nights from each.</p>
+    <p class="chips"><span>United Kingdom</span><span>Costa Rica</span><span>Panama</span><span>Anguilla</span><span>Kenya</span><span>Nigeria</span><span>Namibia</span><span>Cyprus</span><span>Thailand</span><span>Singapore</span><span>Japan</span></p>
+    <p><a class="btn btn-warning btn-lg" href="map/index.html">Explore the map</a></p>
+  </div>
+  <img src="map/photos/singapore/1-1.jpg" alt="A monitoring system in a Singapore forest" loading="lazy">
+</div>
+```
+
+## About us
+
+We're a team at the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk) who bring ecologists, engineers and data scientists together to find new ways of watching wildlife. [Meet us and our partners](about/index.qmd).
+
+::: {.tech-zone}
+
+## For partners and researchers
+
+The technical side: the devices we use, step-by-step guides, and our free software.
+
+::: {.route-grid}
+```{=html}
+<a class="route" href="how-to/do-it-yourself.html"><span class="tag">On your own</span><h3>Do it yourself</h3><p>Run your own survey with our free tools: we point you to the right guide for each step.</p><span class="route-go">Start here →</span></a>
+<a class="route route-dark" href="how-to/working-with-ukceh.html"><span class="tag">With us</span><h3>Working with UKCEH</h3><p>We advise on devices, process your data and give you the results.</p><span class="route-go">How it works →</span></a>
+```
+:::
 
 ::: {.card-grid}
 ```{=html}
-<a class="tile" href="how-to/upload.html"><span class="tag">Partners</span><h3>Send us your data</h3><p>Step-by-step help to upload your photos or recordings, with no programming needed.</p></a>
+<a class="tile" href="technology/ami.html"><span class="tag">Light traps</span><h3>AMI and LepiSense</h3><p>Cameras and lights that photograph night-flying insects.</p></a>
+<a class="tile" href="technology/acoustics.html"><span class="tag">Sound</span><h3>Sound recorders</h3><p>Recorders for birdsong and soundscapes.</p></a>
+<a class="tile" href="technology/ultrasonic.html"><span class="tag">Ultrasound</span><h3>Bat detectors</h3><p>Recorders for bats' echolocation calls.</p></a>
+<a class="tile" href="https://github.com/NERC-CEH/ceh-biomonitoring" target="_blank" rel="noopener"><span class="tag">Software</span><h3>Our toolkit</h3><p>Free, open-source AI for photos and recordings, in Python or R.</p></a>
 ```
+:::
+
+:::
+
+:::
 
 ```{=html}
-<a class="tile" href="https://github.com/NERC-CEH/ceh-biomonitoring" target="_blank" rel="noopener"><span class="tag">Researchers</span><h3>Use our tools</h3><p>Our open-source toolkit runs the same AI models on your own data, in Python or R.</p></a>
+<script>
+// Keep the big numbers in step with the map.
+fetch("map/deployments.json").then(r => r.json()).then(d => {
+  const sys = d.countries.reduce((n, c) => n + c.systems, 0), img = d.countries.reduce((n, c) => n + c.images, 0);
+  const b = document.querySelectorAll("#home-numbers strong");
+  b[0].textContent = d.countries.length; b[1].textContent = sys; b[2].textContent = Math.floor(img / 1e6) + " million";
+}).catch(() => {});
+</script>
 ```
-:::
-
-:::
