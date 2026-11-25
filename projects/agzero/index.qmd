@@ -1,16 +1,16 @@
 ---
 title: "AgZero+: farming for climate and nature"
 subtitle: "Towards sustainable, climate-neutral farming systems"
-description: "United Kingdom · in progress. Watching wildlife on farms to see how farming for nature works."
+description: "United Kingdom · ongoing. Watching wildlife on farms to see how farming for nature works."
 image: hero.jpg
 order: 4
-categories: [In progress, United Kingdom, Farmland, AMI light traps, Sound recorders]
+categories: [Ongoing, United Kingdom, Farmland, AMI light traps, Sound recorders]
 ---
 
 ![An AMI light trap in a UK meadow. Photo: Tom August, UKCEH.](hero.jpg){fig-alt="A white automated moth trap standing in long grass"}
 
 ::: {.at-a-glance}
-**Status:** in progress · **Where:** farms and peatlands across England · **Technology:** [AMI light traps](../../technology/ami.qmd), [sound recorders](../../technology/acoustics.qmd) and AI
+**Status:** ongoing · **Where:** farms and peatlands across England · **Technology:** [AMI light traps](../../technology/ami.qmd), [sound recorders](../../technology/acoustics.qmd) and AI
 
 **Partners:** led by the UK Centre for Ecology & Hydrology, with Rothamsted Research, the British Geological Survey, Plymouth Marine Laboratory and the National Centre for Earth Observation. Funded by the Natural Environment Research Council (NERC) and the Biotechnology and Biological Sciences Research Council (BBSRC).
 :::
@@ -27,7 +27,7 @@ Do wildflower strips, hay meadows, agroforestry and rewetted peat really help wi
 - **Sound recorders** pick up birds, bats and other animals.
 - **AI** identifies the species in the photos and recordings.
 
-The study began in 2023 at four pairs of farms, in Dorset, Wiltshire, Oxfordshire and Northamptonshire, comparing land with and without agri-environment schemes, and at two peatland sites in Cambridgeshire, one farmed and one being restored. The stations move to new sites across England each year, running from March to October.
+This work is ongoing. It started in 2023 at four pairs of farms, in Dorset, Wiltshire, Oxfordshire and Northamptonshire, comparing land with and without agri-environment schemes, and at two peatland sites in Cambridgeshire, one farmed and one being restored. Each year the stations move to new sites across England, and run from March to October.
 
 ## Tools for farmers
 

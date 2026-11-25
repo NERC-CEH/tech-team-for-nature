@@ -1,16 +1,16 @@
 ---
 title: "INSPIRE: insect sensors for everyone"
 subtitle: "Insect Sensor Platforms for Inclusive Research and Engagement"
-description: "UK, Costa Rica and Singapore · in progress. AI-assisted camera systems and citizen science, working with local communities."
+description: "UK, Costa Rica and Singapore · ongoing. AI-assisted camera systems and citizen science, working with local communities."
 image: hero.jpg
 order: 0
-categories: [In progress, Global, AMI light traps, Citizen science]
+categories: [Ongoing, Global, AMI light traps, Citizen science]
 ---
 
 ![An AMI light trap in Singapore, one of INSPIRE's first three countries.](hero.jpg){fig-alt="An automated moth trap set up among plants in Singapore"}
 
 ::: {.at-a-glance}
-**Status:** in progress (2026 to 2028) · **Where:** starting in the UK, Costa Rica and Singapore · **Technology:** [AMI light traps](../../technology/ami.qmd) and AI
+**Status:** ongoing (2026 to 2028) · **Where:** starting in the UK, Costa Rica and Singapore · **Technology:** [AMI light traps](../../technology/ami.qmd) and AI
 
 **Partners:** UK Centre for Ecology & Hydrology and the Aberdeen Group Charitable Trust, with local networks and NGOs
 :::

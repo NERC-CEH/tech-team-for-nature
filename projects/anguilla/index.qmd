@@ -1,16 +1,16 @@
 ---
 title: "Anguilla: shining a light on Anguilla's moths"
 subtitle: "AI-assisted biodiversity monitoring on a Caribbean island"
-description: "Caribbean · in progress. With the Anguilla National Trust: the first standardised moth dataset for the island."
+description: "Caribbean · ongoing. With the Anguilla National Trust: the first standardised moth dataset for the island."
 image: hero.jpg
 order: 1
-categories: [In progress, Caribbean, AMI light traps, LepiSense]
+categories: [Ongoing, Caribbean, AMI light traps, LepiSense]
 ---
 
 ![](hero.jpg){fig-alt="Monitoring in Anguilla"}
 
 ::: {.at-a-glance}
-**Status:** in progress · **Region:** Caribbean · **Technology:** [AMI light traps](../../technology/ami.qmd), [LepiSense](../../technology/lepisense.qmd)
+**Status:** ongoing · **Region:** Caribbean · **Technology:** [AMI light traps](../../technology/ami.qmd), [LepiSense](../../technology/lepisense.qmd)
 
 **Partners:** Anguilla National Trust, UK Centre for Ecology & Hydrology
 :::
