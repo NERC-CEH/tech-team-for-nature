@@ -5,7 +5,7 @@ date: 2026-11-17
 author: "UKCEH Tech for Nature"
 image: cover.jpg
 image-alt: "An AMI light trap in a meadow"
-categories: [Events, Talks]
+categories: [News, Events, Talks]
 ---
 
 On 17 November, students on the University of Reading's MSc in Agricultural Science and Sustainability visited UKCEH. Alyssa Duffy gave a short talk: **"How can automated ID tech support sustainable agriculture research?"**

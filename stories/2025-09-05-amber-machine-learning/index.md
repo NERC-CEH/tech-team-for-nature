@@ -4,7 +4,7 @@ description: "From a white screen covered in insects to species names: how AMI s
 date: 2025-09-05
 author: "AMBER team"
 image: cover.jpg
-categories: [AMBER, AI, AMI light traps]
+categories: [Story, AMBER, AI, AMI light traps]
 ---
 
 <!-- the six clips were 37 MB GIFs on the old site; they're now short looping videos -->

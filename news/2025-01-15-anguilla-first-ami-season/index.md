@@ -2,7 +2,7 @@
 title: "First AMI field season in Anguilla"
 description: "Our first AMI units are running in Anguilla, monitoring night-flying insects across coastal and inland sites."
 date: 2025-01-15
-categories: [Anguilla, AMI light traps]
+categories: [News, Anguilla, AMI light traps]
 # Draft: carried over from the old WildSense site, where it looked like example text. Check the facts, then delete this line and the next.
 draft: true
 ---

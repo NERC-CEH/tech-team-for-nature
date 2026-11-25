@@ -4,7 +4,7 @@ description: "The dazzling diversity of some of the largest moths captured by th
 date: 2025-09-05
 author: "AMBER team"
 image: cover.jpg
-categories: [AMBER, Wildlife, Moths]
+categories: [Story, AMBER, Wildlife, Moths]
 ---
 
 Explore some of the largest moths captured by the AMBER network. These timelapses reveal vibrant patterns, textures and colours, straight from the traps.

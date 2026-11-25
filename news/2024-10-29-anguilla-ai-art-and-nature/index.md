@@ -4,7 +4,7 @@ description: "A public evening with the Anguilla National Trust on how AI and bi
 date: 2024-10-29
 author: "Anguilla National Trust"
 image: cover.jpg
-categories: [Anguilla, Events]
+categories: [News, Anguilla, Events]
 ---
 
 Anguilla's passion for nature and innovation came together on Tuesday 29 October 2024, as community members gathered at Good Korma on the Strip for an evening that blended science, creativity and cutting-edge technology. The event, led by Tom and Jenny from the UK Centre for Ecology & Hydrology, drew an enthusiastic crowd eager to explore how artificial intelligence and biodiversity data are reshaping the way we understand, and even see, our natural world.

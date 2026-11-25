@@ -62,7 +62,7 @@ Stories, news and diaries from our team and our partners around the world.
 :::{#latest}
 :::
 
-[All stories](stories/index.qmd){.btn .btn-dark} [News](news/index.qmd){.btn .btn-outline-dark} [Fieldwork diaries](diaries/index.qmd){.btn .btn-outline-dark}
+[All stories and news](stories/index.qmd){.btn .btn-dark}
 
 ## What our cameras see
 

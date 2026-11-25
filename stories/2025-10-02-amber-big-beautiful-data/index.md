@@ -4,7 +4,7 @@ description: "Millions of images, sound and ultrasound recordings: the scale beh
 date: 2025-10-02
 author: "AMBER team"
 image: cover.jpg
-categories: [AMBER, Data, AI]
+categories: [Story, AMBER, Data, AI]
 ---
 
 Before diving into technical details, it's worth pausing to appreciate the scale of what we work with in AMBER. The project is building an exceptionally rich biodiversity dataset: millions of images, audio clips and ultrasound recordings that capture the pulse of ecosystems in real time. It's an exciting prospect, but turning these vast data streams into insight takes careful design and perseverance.

@@ -1,9 +1,15 @@
 ---
-title: "Stories"
-subtitle: "Stories from our projects: the wildlife we find, how the technology works, and what we learn."
+title: "Stories and news"
+subtitle: "From the field and from the lab: the wildlife we find, events and news, and diaries from fieldwork. Use the tags to show one kind."
 toc: false
+aliases:
+  - ../news/index.html
+  - ../diaries/index.html
 listing:
-  contents: "*/index.*"
+  contents:
+    - "*/index.*"
+    - "../news/*/index.*"
+    - "../diaries/*/index.*"
   type: grid
   sort: "date desc"
   fields: [image, date, title, description, author, categories]
@@ -12,4 +18,3 @@ listing:
   feed: true
   page-size: 12
 ---
-

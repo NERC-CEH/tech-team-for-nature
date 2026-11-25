@@ -4,7 +4,7 @@ description: "Our camera traps capture far more than moths: cats, frogs, geckos,
 date: 2025-09-05
 author: "AMBER team"
 image: cover.jpg
-categories: [AMBER, Wildlife, AMI light traps]
+categories: [Story, AMBER, Wildlife, AMI light traps]
 ---
 
 Our AMBER camera traps capture more than just moths. They also uncover the diversity of wildlife across different ecosystems, from mammals to snails to amphibians. These unexpected visitors give extra insights into biodiversity. Play a clip to see the timelapse, and the visitor in action.

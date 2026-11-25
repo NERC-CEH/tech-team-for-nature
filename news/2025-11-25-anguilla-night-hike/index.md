@@ -4,7 +4,7 @@ description: "Nature Week began with a guided night hike in search of the island
 date: 2025-11-25
 author: "Anguilla National Trust"
 image: spider-web-photo.jpg
-categories: [Anguilla, Events]
+categories: [News, Anguilla, Events]
 ---
 
 **Anguilla National Trust Nature Week** brought the island's unique wildlife and conservation work into sharp focus, beginning with a guided night hike through the agricultural lands of The Valley.

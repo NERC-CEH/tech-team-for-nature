@@ -5,7 +5,7 @@ date: 2025-09-05
 author: "Jenna Lawson"
 image: jenna.jpg
 hero: false            # the photo is already beside the text
-categories: [AMBER, Costa Rica, Video]
+categories: [Fieldwork diary, AMBER, Costa Rica, Video]
 ---
 
 ![](jenna.jpg){width=220px fig-align="right" fig-alt="Dr Jenna Lawson explaining how an AMI device is set up"}

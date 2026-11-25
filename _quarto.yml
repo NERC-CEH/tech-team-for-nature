@@ -31,14 +31,8 @@ website:
     logo: assets/logo.png
     logo-alt: "Moth logo"
     left:
-      - text: "Stories"
-        menu:
-          - text: "Stories"
-            href: stories/index.qmd
-          - text: "News"
-            href: news/index.qmd
-          - text: "Fieldwork diaries"
-            href: diaries/index.qmd
+      - text: "Stories and news"
+        href: stories/index.qmd
       - text: "Projects"
         menu:
           - text: "All projects"

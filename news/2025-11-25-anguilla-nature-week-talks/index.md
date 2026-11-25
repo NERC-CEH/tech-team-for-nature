@@ -4,7 +4,7 @@ description: "Anguilla National Trust's Nature Week ended with talks on new rese
 date: 2025-11-25
 author: "Anguilla National Trust"
 image: isabel-iguana.jpg
-categories: [Anguilla, Events]
+categories: [News, Anguilla, Events]
 ---
 
 **Anguilla National Trust Nature Week** ended with a series of talks on research to better understand and protect Anguilla's extraordinary biodiversity. Speakers shared updates on work with some of the island's most remarkable species, from endangered reptiles to understudied moths and insects, and even the often-misunderstood sharks in its waters.
