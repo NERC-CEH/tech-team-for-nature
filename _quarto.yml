@@ -13,6 +13,8 @@ project:
     - "**/*.mp4"
     - "**/*.docx"
     - "map/deployments.json"
+    - "events/events.json"
+    - "assets/events.js"
     - "map/map.js"
     - "map/photos/*/*.jpg"
     - "stories/*/*.jpg"
@@ -33,6 +35,8 @@ website:
     left:
       - text: "Stories and news"
         href: stories/index.qmd
+      - text: "Events"
+        href: events/index.qmd
       - text: "Projects"
         menu:
           - text: "All projects"

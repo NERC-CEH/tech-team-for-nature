@@ -150,3 +150,24 @@ video.loop { width: 100%; border-radius: .5rem; background: #000; }
 
 /* photos placed in a story: tall ones shouldn't fill the screen */
 main .quarto-figure img { max-height: 80vh; width: auto; max-width: 100%; }
+
+/* events: calendar tiles (assets/events.js, events/events.json) */
+.event-list { display: grid; gap: 1rem; margin: 1rem 0 2rem; }
+.event { display: grid; grid-template-columns: 92px 1fr; gap: 1.1rem; align-items: start; border: 1px solid #d9e3e0; border-radius: .9rem; padding: 1rem; background: #fff; }
+.event.soon { border: 2px solid #000; }
+.event .cal { display: flex; flex-direction: column; align-items: center; border-radius: .7rem; overflow: hidden; background: #D6EAE6; text-align: center; }
+.event.soon .cal { background: #000; color: #fff; }
+.event .cal .m { width: 100%; background: #DBFE52; color: #000; font-weight: 700; text-transform: uppercase; font-size: .8rem; letter-spacing: .06em; padding: .15rem 0; }
+.event .cal .d { font-size: 2.2rem; font-weight: 700; line-height: 1.1; padding-top: .2rem; }
+.event .cal .y { font-size: .8rem; padding-bottom: .35rem; }
+.event h3 { margin: .35rem 0 .2rem; font-size: 1.2rem; }
+.event h3 a { color: #000; }
+.event p { margin: .2rem 0; }
+.event .ev-when { font-weight: 700; }
+.event .ev-host { color: #4a4a4a; font-size: .95rem; }
+.event .ev-links { margin-top: .5rem; display: flex; flex-wrap: wrap; gap: .4rem; }
+.event .tag { display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: #000; background: #D6EAE6; border-radius: 1rem; padding: .1rem .6rem; font-weight: 700; }
+.event-list.past .event { padding: .7rem 1rem; }
+.event-list.past .event .cal .d { font-size: 1.6rem; }
+#home-events { margin: 0 0 1rem; }
+@media (max-width: 600px) { .event { grid-template-columns: 70px 1fr; gap: .8rem; } }

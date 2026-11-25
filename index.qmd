@@ -54,6 +54,16 @@ listing:
 
 ::: {.content-block}
 
+```{=html}
+<section id="home-events" hidden>
+  <h2>Coming up</h2>
+  <div class="event-list"></div>
+  <p><a class="btn btn-outline-dark" href="events/index.html">All events</a></p>
+</section>
+<div data-site-root=""></div>
+<script src="assets/events.js"></script>
+```
+
 ## Latest from the field
 
 ::: {.section-intro}

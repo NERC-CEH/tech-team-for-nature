@@ -11,13 +11,14 @@ We're ecologists, engineers and data scientists at the [UK Centre for Ecology & 
 
 ```{=html}
 <div class="people">
-  <div><span class="initials" aria-hidden="true">AD</span><strong>Alyssa Duffy</strong><span>Data Scientist</span></div>
+  <div><img src="../assets/people/alyssa.jpg" alt=""><strong>Alyssa Duffy</strong><span>Data Scientist</span></div>
   <div><img src="../assets/people/tom.jpg" alt=""><strong>Tom August</strong><span>Computational Ecologist</span></div>
   <div><img src="../assets/people/jonas.jpg" alt=""><strong>Jonas Beuchert</strong><span>Wildlife Monitoring Engineer</span></div>
   <div><img src="../assets/people/grace.jpg" alt=""><strong>Grace Skinner</strong><span>Ecological Data Scientist</span></div>
   <div><span class="initials" aria-hidden="true">IR</span><strong>Issy Russ</strong><span>Research Associate, Data Scientist</span></div>
   <div><span class="initials" aria-hidden="true">SR</span><strong>Simon Rolph</strong><span>Data Scientist</span></div>
   <div><span class="initials" aria-hidden="true">AL</span><strong>Abigail Lowe</strong><span>Research Scientist</span></div>
+  <div><span class="initials" aria-hidden="true">DM</span><strong>Dan Marquand</strong><span>Biodiversity Monitoring Scientist</span></div>
   <div><img src="../assets/people/jenna.jpg" alt=""><strong>Jenna Lawson</strong><span>Ecological Network Coordinator</span></div>
   <div><img src="../assets/people/david.jpg" alt=""><strong>David Roy</strong><span>Head of the Biological Records Centre</span></div>
   <div><img src="../assets/people/helen.jpg" alt=""><strong>Helen Roy</strong><span>Principal Scientist</span></div>

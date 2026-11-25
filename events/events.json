@@ -1,0 +1,58 @@
+{
+ "_how_to_add": "One entry per event. start/end: ISO date-times with a time zone (Z = UK winter time, +01:00 = UK summer time), or just a date for all-day events. Events move from 'Coming up' to 'Past' by themselves. 'story' links to a news item on this site (optional).",
+ "events": [
+  {
+   "title": "Shining a light on Anguilla's night",
+   "kind": "Talk",
+   "start": "2026-12-01T14:00:00Z",
+   "end": "2026-12-01T17:00:00Z",
+   "where": "Online (Zoom)",
+   "host": "CIEEM UK Overseas Territories Special Interest Group",
+   "summary": "Alyssa Duffy speaks at the online symposium Technology Enabling Biodiversity Conservation in the UK Overseas Territories.",
+   "link": "https://events.cieem.net/events/details/?id=2f0964ee-888c-490b-8326-baa73b069f7e",
+   "story": "news/2026-11-25-ukot-symposium-talk/index.html"
+  },
+  {
+   "title": "Automated ID for farming research",
+   "kind": "Talk",
+   "start": "2026-11-17",
+   "where": "UKCEH Wallingford",
+   "host": "University of Reading MSc students",
+   "summary": "How cameras, recorders and AI can support sustainable agriculture research.",
+   "story": "news/2026-11-17-reading-msc-talk/index.html"
+  },
+  {
+   "title": "Anguilla National Trust Nature Week",
+   "kind": "Event",
+   "start": "2025-11-25",
+   "where": "Anguilla",
+   "host": "Anguilla National Trust",
+   "summary": "A night hike, and talks on new research from endangered reptiles to moths and sharks.",
+   "story": "news/2025-11-25-anguilla-nature-week-talks/index.html"
+  },
+  {
+   "title": "Global Biodiversity Congress",
+   "kind": "Conference",
+   "start": "2025-02-10",
+   "summary": "Early findings from AMI, LepiSense and acoustic monitoring.",
+   "story": "news/2025-02-10-biodiversity-congress/index.html"
+  },
+  {
+   "title": "AI, art and nature in Anguilla",
+   "kind": "Event",
+   "start": "2024-10-29",
+   "where": "Anguilla",
+   "summary": "An evening on how AI can help nature conservation.",
+   "story": "news/2024-10-29-anguilla-ai-art-and-nature/index.html"
+  },
+  {
+   "title": "Automated moth monitoring workshop",
+   "kind": "Workshop",
+   "start": "2022-10-18",
+   "end": "2022-10-19",
+   "where": "Buenos Aires, Argentina",
+   "summary": "Two days of talks and hands-on work setting up an AMI light trap.",
+   "story": "news/2022-10-19-argentina-workshop/index.html"
+  }
+ ]
+}

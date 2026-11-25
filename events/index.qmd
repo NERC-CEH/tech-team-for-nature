@@ -1,0 +1,19 @@
+---
+title: "Events"
+subtitle: "Talks, workshops and events where you can meet us and see the technology"
+toc: false
+---
+
+<!-- Events come from events.json in this folder: add one entry per event. They move from
+     "Coming up" to "Past events" by themselves once they're over. -->
+
+```{=html}
+<div data-site-root="../"></div>
+<h2>Coming up</h2>
+<div class="event-list" id="events-upcoming"><p>Loading…</p></div>
+<h2>Past events</h2>
+<div class="event-list past" id="events-past"></div>
+<script src="../assets/events.js"></script>
+```
+
+Would you like us to speak at your event, or bring a light trap along? [Get in touch](../about/contact.qmd).
