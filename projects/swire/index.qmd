@@ -1,0 +1,10 @@
+---
+title: "Swire estate"
+description: "United Kingdom · ongoing. Moth monitoring with LepiSense light traps."
+order: 7
+categories: [Ongoing, United Kingdom, LepiSense]
+# Hidden until the user sends two or three lines about the project (what, where, with whom).
+draft: true
+---
+
+Details to come.

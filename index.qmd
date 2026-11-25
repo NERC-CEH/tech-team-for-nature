@@ -19,6 +19,7 @@ listing:
     page-size: 6
   - id: home-projects
     contents: "projects/*/index.qmd"
+    max-items: 6
     type: grid
     sort: ["order", "title"]
     fields: [image, title, description]
@@ -91,6 +92,8 @@ We work with partners who know their places best, from island trusts to universi
 
 :::{#home-projects}
 :::
+
+[All projects](projects/index.qmd){.btn .btn-dark}
 
 ```{=html}
 <div class="band">

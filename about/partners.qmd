@@ -9,6 +9,7 @@ subtitle: "Research, technology and conservation organisations we work with"
 - **The Alan Turing Institute**: AI, software and data infrastructure for AMBER.
 - **Aarhus University** and **Mila – Quebec AI Institute**: AMI hardware and AI models.
 - **British Trust for Ornithology (BTO)**: the bat Acoustic Pipeline.
+- **De Vlinderstichting** (Dutch Butterfly Conservation), **Butterfly Conservation Europe**, **Aarhus University** and **Lund University**: AI for Europe's moths in [ADMIRE](../projects/admire/index.qmd).
 
 ```{=html}
 <div class="logos">
@@ -44,12 +45,15 @@ In Anguilla we work with the **Anguilla National Trust** ([the project](../proje
 
 ## Funders
 
-- **abrdn Charitable Foundation**: the AMBER project.
+- **Aberdeen Group Charitable Trust**: [INSPIRE](../projects/inspire/index.qmd) (2026 to 2028).
+- **abrdn Charitable Foundation**: [AMBER](../projects/amber/index.qmd).
+- **European Commission (DG Environment)**: [ADMIRE](../projects/admire/index.qmd).
+- **NERC and BBSRC**: [AgZero+](../projects/agzero/index.qmd).
 - **UK Government Biodiversity Challenge Funds (Darwin Plus and Darwin Local)**: work in Anguilla.
 - **UKCEH**: core funding.
 
 ```{=html}
 <div class="logos">
-  <figure><img src="../assets/logos/aberdeen_logo.png" alt="abrdn Charitable Foundation"></figure>
+  <figure><img src="../assets/logos/aberdeen_logo.png" alt="Aberdeen Group Charitable Trust"></figure>
 </div>
 ```

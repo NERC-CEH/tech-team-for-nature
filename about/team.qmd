@@ -2,47 +2,34 @@
 title: "Team"
 subtitle: "The people behind the technology"
 toc: false
-# Hidden until the roles marked ROLE TO CONFIRM are checked (draft pages are left off the site).
-draft: true
 ---
 
-<!-- To add someone: put a square photo in assets/people/ (any size; 300 px is plenty) and copy one <div> below. -->
+<!-- To add someone: put a square photo in assets/people/ (any size; 300 px is plenty) and copy one <div> below.
+     People without a photo yet show their initials. -->
 
-## UK Centre for Ecology & Hydrology
+We're ecologists, engineers and data scientists at the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk), working with [partners around the world](partners.qmd).
 
 ```{=html}
 <div class="people">
-  <div><span class="initials" aria-hidden="true">AD</span><strong>Alyssa Duffy</strong><span>ROLE TO CONFIRM</span></div>
-  <div><span class="initials" aria-hidden="true">AL</span><strong>Abigail Lowe</strong><span>ROLE TO CONFIRM</span></div>
+  <div><span class="initials" aria-hidden="true">AD</span><strong>Alyssa Duffy</strong><span>Data Scientist</span></div>
   <div><img src="../assets/people/tom.jpg" alt=""><strong>Tom August</strong><span>Computational Ecologist</span></div>
   <div><img src="../assets/people/jonas.jpg" alt=""><strong>Jonas Beuchert</strong><span>Wildlife Monitoring Engineer</span></div>
-  <div><img src="../assets/people/dylan.jpg" alt=""><strong>Dylan Carbone</strong><span>Research Associate, Data Scientist</span></div>
-  <div><img src="../assets/people/alba.jpg" alt=""><strong>Alba Gomez Segura</strong><span>Research Associate</span></div>
+  <div><img src="../assets/people/grace.jpg" alt=""><strong>Grace Skinner</strong><span>Ecological Data Scientist</span></div>
+  <div><span class="initials" aria-hidden="true">IR</span><strong>Issy Russ</strong><span>Research Associate, Data Scientist</span></div>
+  <div><span class="initials" aria-hidden="true">SR</span><strong>Simon Rolph</strong><span>Data Scientist</span></div>
+  <div><span class="initials" aria-hidden="true">AL</span><strong>Abigail Lowe</strong><span>Research Scientist</span></div>
   <div><img src="../assets/people/jenna.jpg" alt=""><strong>Jenna Lawson</strong><span>Ecological Network Coordinator</span></div>
-  <div><img src="../assets/people/grace.jpg" alt=""><strong>Grace Skinner</strong><span>Research Associate, Data Scientist</span></div>
-  <div><img src="../assets/people/helen.jpg" alt=""><strong>Helen Roy</strong><span>Ecologist</span></div>
   <div><img src="../assets/people/david.jpg" alt=""><strong>David Roy</strong><span>Head of the Biological Records Centre</span></div>
+  <div><img src="../assets/people/helen.jpg" alt=""><strong>Helen Roy</strong><span>Principal Scientist</span></div>
+  <div><span class="initials" aria-hidden="true">RP</span><strong>Richard Pywell</strong><span>Principal Scientist, Nature Recovery</span></div>
 </div>
 ```
 
-## Collaborators
-
-### The Alan Turing Institute
+## PhD students
 
 ```{=html}
 <div class="people">
-  <div><img src="../assets/people/levan.jpg" alt=""><strong>Levan Bokeria</strong><span>Research Software Engineer</span></div>
-  <div><img src="../assets/people/katriona.jpg" alt=""><strong>Katriona Goldmann</strong><span>Research Data Scientist</span></div>
-  <div><img src="../assets/people/mariya.jpg" alt=""><strong>Mariya Iqbal</strong><span>Research Project Manager</span></div>
-  <div><img src="../assets/people/oliver.jpg" alt=""><strong>Oliver Strickson</strong><span>Lead Research Software Engineer</span></div>
-</div>
-```
-
-### abrdn Charitable Foundation (AMBER's funder)
-
-```{=html}
-<div class="people">
-  <div><img src="../assets/people/holly.jpg" alt=""><strong>Holly O'Donnell</strong><span>Head of Corporate Environment Strategy</span></div>
-  <div><img src="../assets/people/katie.jpg" alt=""><strong>Catherine Warner</strong><span>Sustainability Consultant</span></div>
+  <div><span class="initials" aria-hidden="true">AS</span><strong>Aoife Sweeney</strong><span>PhD student</span></div>
+  <div><span class="initials" aria-hidden="true">TS</span><strong>Tom Searby</strong><span>PhD student</span></div>
 </div>
 ```

@@ -43,6 +43,8 @@ website:
         menu:
           - text: "About us"
             href: about/index.qmd
+          - text: "Team"
+            href: about/team.qmd
           - text: "Partners and funders"
             href: about/partners.qmd
           - text: "Contact"
