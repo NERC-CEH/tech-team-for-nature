@@ -47,7 +47,7 @@ listing:
   <div><strong>11</strong>countries</div>
   <div><strong>149</strong>systems in the field</div>
   <div><strong>16 million</strong>photos of wildlife</div>
-  <div><strong>Every</strong>night, all night</div>
+  <div><strong>51 million+</strong>insects spotted by our AI</div>  <!-- detections (crops) from the 22 AMBER deployments processed so far (AMBER wrap-up, deployments_summary.csv); more are still being processed -->
 </div>
 ```
 
