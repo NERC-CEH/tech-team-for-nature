@@ -1,0 +1,49 @@
+---
+title: "Accessibility statement"
+subtitle: "For the UKCEH Tech for Nature website"
+toc: true
+---
+
+The UK Centre for Ecology & Hydrology (UKCEH) runs this website. We want as many people as possible to be able to use it. You should be able to:
+
+- zoom in up to 400% without the text spilling off the screen;
+- navigate most of the website using just a keyboard;
+- use the website with a screen reader;
+- read every page in a single column on a phone.
+
+We've also tried to make the text as simple as possible to understand. [AbilityNet](https://mcmw.abilitynet.org.uk/) has advice on making your device easier to use if you have a disability.
+
+## How accessible this website is
+
+We know some parts of this website are not fully accessible:
+
+- **The map** of where we work is easier to use with a mouse or touch screen. Each country's marker can be reached with the keyboard, but the map itself can't be fully explored that way, and the photos of each system have the same short description.
+- **Some videos** of moths on our traps have no captions or audio description. They have no speech, and the text around them describes what they show.
+- **Some older pages** have photos with short or general descriptions.
+- **Some documents** linked from project pages (Word files) may not be fully accessible.
+
+## Feedback and contact information
+
+If you need information on this website in a different format, or you find a problem not listed here, email [{{< var email >}}](mailto:{{< var email >}}). We'll reply within 10 working days.
+
+## Enforcement procedure
+
+The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the "accessibility regulations"). If you're not happy with how we respond to your complaint, [contact the Equality Advisory and Support Service (EASS)](https://www.equalityadvisoryservice.com/).
+
+## Technical information about this website's accessibility
+
+UKCEH is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.
+
+**Compliance status:** this website is partially compliant with the [Web Content Accessibility Guidelines version 2.2](https://www.w3.org/TR/WCAG22/) AA standard, because of the issues listed below.
+
+### Non-accessible content
+
+- The map's photo descriptions are the same for every photo (WCAG 1.1.1 Non-text content).
+- Some videos have no captions or audio description (WCAG 1.2.3 and 1.2.5). Our videos are short clips of insects on light traps, with no speech.
+- Exploring the map relies on dragging and zooming, and the map can't be fully used with a keyboard (WCAG 2.1.1 Keyboard). The information on it, the countries and systems, is also on our [projects](../projects/index.qmd) pages.
+
+We plan to improve the photo descriptions and add text alternatives for the videos as we update these pages.
+
+## Preparation of this accessibility statement
+
+This statement was prepared on 25 November 2026. It is based on a self-assessment by the team that runs the website. It will be reviewed by 25 November 2027.

@@ -89,6 +89,10 @@ website:
     center:
       - text: "Contact"
         href: about/contact.qmd
+      - text: "Privacy"
+        href: about/privacy.qmd
+      - text: "Accessibility"
+        href: about/accessibility.qmd
     right:
       - icon: github
         href: https://github.com/NERC-CEH/ceh-biomonitoring

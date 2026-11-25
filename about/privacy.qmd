@@ -1,0 +1,38 @@
+---
+title: "Privacy"
+subtitle: "What we collect, why, who sees it, and how long we keep it"
+toc: true
+---
+
+The UK Centre for Ecology & Hydrology (UKCEH) runs this website and the tools linked from it. UKCEH is the data controller for any personal information described here. This page explains the specifics. Your rights, the legal basis for processing and how to contact our Data Protection Officer are set out in [UKCEH's privacy notice](https://www.ceh.ac.uk/privacy-notice).
+
+## Visiting this website
+
+- **No cookies and no tracking.** This website doesn't set cookies, and we don't use analytics or advertising tools.
+- **Other services load some parts of the page.** The map tiles come from [OpenStreetMap](https://wiki.osmfoundation.org/wiki/Privacy_Policy), some page code comes from the content delivery networks cdnjs (Cloudflare) and jsDelivr, and videos play through YouTube's privacy-enhanced mode. These services see your IP address when your browser fetches from them, as with any website, and handle it under their own privacy policies.
+- **Hosting.** The website is hosted on GitHub Pages, which keeps standard server logs. See [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## Sharing a story (the partner form)
+
+Partners who work with us can send stories, news and fieldwork diaries through our *Share your story* form, using a login we give them.
+
+| What we collect | Why | Who sees it | How long we keep it |
+|---|---|---|---|
+| **Your name** | To credit you, if you choose "show my name" | The UKCEH team; the public too if you choose to be credited | With the story |
+| **Your email address** | Only to contact you about your story | The UKCEH team | **Deleted** as soon as we approve or turn down your story |
+| **Your story, photos and captions** | To publish on this website | The UKCEH team, then the public once approved | Published stories stay on the website. Stories we turn down are kept, without your email address, so we have a record |
+| **Your login** (name, organisation, optional email) | So only partners can send stories | The UKCEH team | While you work with us. Ask us to remove it at any time |
+
+- **Photos:** we remove the hidden data in your photos (including any GPS location) when you send them.
+- **Where it's kept:** in UKCEH's private storage on the JASMIN data centre in the UK. Nothing you send is public until a member of the team approves it.
+- **Security:** passwords are never stored, only a scrambled version (a salted hash). The form sets one cookie, only while you're signed in, to keep you signed in. Your IP address is used briefly to stop repeated guessing of passwords, and isn't stored.
+
+## Uploading data to UKCEH
+
+If we give you a login for our upload service (`cehbio upload`), we keep your name, organisation and login so we know who sent which data. Uploads are logged with the name you give and the login used. We keep these records for as long as we hold the data, as part of its history.
+
+## Questions or requests
+
+To see, correct or remove anything we hold about you, email [{{< var email >}}](mailto:{{< var email >}}), or use the contact details in [UKCEH's privacy notice](https://www.ceh.ac.uk/privacy-notice).
+
+*Last updated: 25 November 2026.*
