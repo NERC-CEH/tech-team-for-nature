@@ -7,7 +7,7 @@ toc: true
 ## Papers
 
 - Roy, D. B., Alison, J., August, T. A., *et al.* (2024). **Towards a standardized framework for AI-assisted, image-based monitoring of nocturnal insects.** *Philosophical Transactions of the Royal Society B* 379: 20230108. [doi:10.1098/rstb.2023.0108](https://doi.org/10.1098/rstb.2023.0108) · [free to read](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11070254/)
-- **Automated monitoring of insects system: building a non-lethal and scalable solution for monitoring of nocturnal insects** (2026). *HardwareX* 27: e00822. [doi:10.1016/j.ohx.2026.e00822](https://doi.org/10.1016/j.ohx.2026.e00822) · [free to read](https://nora.nerc.ac.uk/id/eprint/542184/)
+- Lord, W., Teagle, S., Alton, J., *et al.*, August, T. (2026). **Automated monitoring of insects system: building a non-lethal and scalable solution for monitoring of nocturnal insects.** *HardwareX* 27: e00822. [doi:10.1016/j.ohx.2026.e00822](https://doi.org/10.1016/j.ohx.2026.e00822) · [free to read](https://nora.nerc.ac.uk/id/eprint/542184/)
 
 Our software is open source: see the [UKCEH Biomonitoring toolkit](https://github.com/NERC-CEH/ceh-biomonitoring), which also lists the models it uses and how to cite them.
 
