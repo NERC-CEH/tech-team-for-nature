@@ -1,0 +1,26 @@
+---
+title: "Publications and talks"
+subtitle: "Papers about the technology, and where we've spoken about it"
+toc: true
+---
+
+## Papers
+
+- Roy, D. B., Alison, J., August, T. A., *et al.* (2024). **Towards a standardized framework for AI-assisted, image-based monitoring of nocturnal insects.** *Philosophical Transactions of the Royal Society B* 379: 20230108. [doi:10.1098/rstb.2023.0108](https://doi.org/10.1098/rstb.2023.0108) · [free to read](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11070254/)
+- **Automated monitoring of insects system: building a non-lethal and scalable solution for monitoring of nocturnal insects** (2026). *HardwareX* 27: e00822. [doi:10.1016/j.ohx.2026.e00822](https://doi.org/10.1016/j.ohx.2026.e00822) · [free to read](https://nora.nerc.ac.uk/id/eprint/542184/)
+
+Our software is open source: see the [UKCEH Biomonitoring toolkit](https://github.com/NERC-CEH/ceh-biomonitoring), which also lists the models it uses and how to cite them.
+
+## Talks
+
+| When | Talk | Where |
+|---|---|---|
+| 1 December 2026 | **Shining a light on Anguilla's night**, Alyssa Duffy ([more](../news/2026-11-25-ukot-symposium-talk/index.md)) | CIEEM UK Overseas Territories symposium, online |
+| 17 November 2026 | **How can automated ID tech support sustainable agriculture research?**, Alyssa Duffy ([more](../news/2026-11-17-reading-msc-talk/index.md)) | University of Reading MSc students, UKCEH Wallingford |
+| 28 February 2026 | Moths and AI in Anguilla: a public talk, Alyssa Duffy | Anguilla |
+| 2026 | Automated biodiversity monitoring, Alyssa Duffy | BioMon 2026 |
+| November 2025 | Talks on moths and AI at Nature Week, David Roy and Helen Roy ([more](../news/2025-11-25-anguilla-nature-week-talks/index.md)) | Anguilla National Trust, Anguilla |
+| February 2025 | Early findings from AMI, LepiSense and acoustic monitoring ([more](../news/2025-02-10-biodiversity-congress/index.md)) | Global Biodiversity Congress |
+| October 2024 | AI, art and nature conservation ([more](../news/2024-10-29-anguilla-ai-art-and-nature/index.md)) | Anguilla |
+
+Coming up next: see [Events](../events/index.qmd). Would you like us to speak at your event? [Get in touch](contact.qmd).

@@ -51,6 +51,8 @@ website:
             href: about/team.qmd
           - text: "Partners and funders"
             href: about/partners.qmd
+          - text: "Publications and talks"
+            href: about/publications.qmd
           - text: "Contact"
             href: about/contact.qmd
       - text: "Our technology"
