@@ -17,8 +17,8 @@ Our software is open source: see the [UKCEH Biomonitoring toolkit](https://githu
 |---|---|---|
 | 1 December 2026 | **Shining a light on Anguilla's night**, Alyssa Duffy ([more](../news/2026-11-25-ukot-symposium-talk/index.md)) | CIEEM UK Overseas Territories symposium, online |
 | 17 November 2026 | **How can automated ID tech support sustainable agriculture research?**, Alyssa Duffy ([more](../news/2026-11-17-reading-msc-talk/index.md)) | University of Reading MSc students, UKCEH Wallingford |
-| 28 February 2026 | Moths and AI in Anguilla: a public talk, Alyssa Duffy | Anguilla |
-| 2026 | Automated biodiversity monitoring, Alyssa Duffy | BioMon 2026 |
+| 6 May 2026 | **Monitoring biodiversity in hard-to-reach places: lessons from automated insect monitoring in remote ecosystems**, Alyssa Duffy, with Tom August, David Roy, Jenna Lawson, Jonas Beuchert and Karl Questel | [BioMonWeek 2026](https://www.biodiversa.eu/2025/11/20/biomonweek2026/), the European conference for biodiversity monitoring, Montpellier, France |
+| 28 February 2026 | **Shining a light on Anguilla's night: AI-assisted biodiversity monitoring on a Caribbean island**, Alyssa Duffy | Public talk at Good Karma, Anguilla, with the Anguilla National Trust, the University of Exeter and Darwin Plus |
 | November 2025 | Talks on moths and AI at Nature Week, David Roy and Helen Roy ([more](../news/2025-11-25-anguilla-nature-week-talks/index.md)) | Anguilla National Trust, Anguilla |
 | February 2025 | Early findings from AMI, LepiSense and acoustic monitoring ([more](../news/2025-02-10-biodiversity-congress/index.md)) | Global Biodiversity Congress |
 | October 2024 | AI, art and nature conservation ([more](../news/2024-10-29-anguilla-ai-art-and-nature/index.md)) | Anguilla |

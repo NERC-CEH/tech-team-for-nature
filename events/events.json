@@ -53,6 +53,22 @@
    "where": "Buenos Aires, Argentina",
    "summary": "Two days of talks and hands-on work setting up an AMI light trap.",
    "story": "news/2022-10-19-argentina-workshop/index.html"
+  },
+  {
+   "title": "Monitoring biodiversity in hard-to-reach places",
+   "kind": "Conference talk",
+   "start": "2026-05-06",
+   "where": "Montpellier, France",
+   "host": "BioMonWeek 2026, the European conference for biodiversity monitoring",
+   "summary": "Alyssa Duffy on lessons from automated insect monitoring in remote ecosystems, with a LepiSense to see.",
+   "link": "https://www.biodiversa.eu/2025/11/20/biomonweek2026/"
+  },
+  {
+   "title": "Shining a light on Anguilla's night",
+   "kind": "Public talk",
+   "start": "2026-02-28",
+   "where": "Good Karma, Anguilla",
+   "summary": "AI-assisted biodiversity monitoring on a Caribbean island: revealing Anguilla's night-flying insects, especially moths."
   }
  ]
 }
